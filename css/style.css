@@ -499,6 +499,24 @@
     margin-bottom: 1.5em;
   }
 
+  /* @group ------ Simple Pages ------ */
+  /* Removing breadcrumbs and h1 from pages as index.html */
+  /* line 407, sass/_screen.scss */
+  #home #simple-pages-breadcrumbs {
+    display: none;
+  }
+
+  /* line 410, sass/_screen.scss */
+  #home h1 {
+    display: none;
+  }
+
+  /* @group ------ Carousel ----- */
+  /* line 416, sass/_screen.scss */
+  .jcarousel img {
+    margin: 0 auto;
+  }
+
   /* @end */
 }
 @media screen and (max-width: 500px) {

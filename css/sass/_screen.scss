@@ -401,4 +401,19 @@ footer {
     }
 }
 
+/* @group ------ Simple Pages ------ */
+
+/* Removing breadcrumbs and h1 from pages as index.html */
+#home #simple-pages-breadcrumbs {
+    display:none;
+}
+#home h1 {
+    display:none;
+}
+
+/* @group ------ Carousel ----- */
+
+.jcarousel img {
+    margin:0 auto;
+}
 /* @end */
