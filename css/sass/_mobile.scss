@@ -1,0 +1,17 @@
+@import "base";
+@import "compass/css3";
+@import "compass/typography";
+@import "susy";
+
+
+#sort-links {
+    width:100%;
+    float:left;
+    margin-top:0;
+    margin-bottom: 3em; 
+    background-color: transparent;
+    .sort-label {
+        background-color: #fff;
+        padding: rhythm(.35) 7px rhythm(.35) 10px;
+    }
+}
