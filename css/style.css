@@ -511,8 +511,26 @@
     display: none;
   }
 
+  /* line 414, sass/_screen.scss */
+  .gallery {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+  /* line 419, sass/_screen.scss */
+  .gallery img {
+    width: 20%;
+    float: left;
+  }
+  /* line 423, sass/_screen.scss */
+  .gallery p {
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+  }
+
   /* @group ------ Carousel ----- */
-  /* line 416, sass/_screen.scss */
+  /* line 431, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }

@@ -411,6 +411,21 @@ footer {
     display:none;
 }
 
+.gallery {
+    width: 100%;
+    float:left;
+    margin-bottom:15px;
+
+    img {
+        width:20%;
+        float:left;
+    }
+    p {
+        width:80%;
+        float:left;
+        padding-left:20px;
+    }
+}
 /* @group ------ Carousel ----- */
 
 .jcarousel img {
