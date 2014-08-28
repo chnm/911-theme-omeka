@@ -509,27 +509,31 @@
     margin-bottom: 1.5em;
   }
   /* line 401, sass/_screen.scss */
+  .items .item-meta {
+    padding-bottom: 1em;
+  }
+  /* line 404, sass/_screen.scss */
   .items .element-set {
     margin-bottom: 3em;
   }
-  /* line 405, sass/_screen.scss */
+  /* line 408, sass/_screen.scss */
   .items .element {
     margin-bottom: 1.5em;
   }
 
-  /* line 410, sass/_screen.scss */
+  /* line 413, sass/_screen.scss */
   .search-entry {
     margin-bottom: 1.5em;
   }
 
-  /* line 414, sass/_screen.scss */
+  /* line 417, sass/_screen.scss */
   #advanced-search-form {
     margin-bottom: 3em;
   }
 
   /* @end */
   /* @group ----- Collections ----- */
-  /* line 423, sass/_screen.scss */
+  /* line 426, sass/_screen.scss */
   .collections .collection {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -540,47 +544,47 @@
 
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 433, sass/_screen.scss */
+  /* line 436, sass/_screen.scss */
   #home #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 436, sass/_screen.scss */
+  /* line 439, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 440, sass/_screen.scss */
+  /* line 443, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 445, sass/_screen.scss */
+  /* line 448, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
   }
-  /* line 449, sass/_screen.scss */
+  /* line 452, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 455, sass/_screen.scss */
+  /* line 458, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 458, sass/_screen.scss */
+  /* line 461, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 465, sass/_screen.scss */
+  /* line 468, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }

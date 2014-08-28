@@ -398,6 +398,9 @@ footer {
         @include trailer();
     }
     
+    .item-meta {
+        padding-bottom:1em;
+    }
     .element-set {
         @include trailer(2);
     }
