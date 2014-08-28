@@ -3,13 +3,18 @@
 @import "compass/typography";
 @import "susy";
 
-
+.pagination-nav {
+	border-bottom: none;
+	margin-bottom:initial;
+}
 #sort-links {
     width:100%;
     float:left;
     margin-top:0;
     margin-bottom: 3em; 
     background-color: transparent;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(0,0,0,.15);
     .sort-label {
         background-color: #fff;
         padding: rhythm(.35) 7px rhythm(.35) 10px;

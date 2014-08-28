@@ -177,18 +177,24 @@ nav ul {
         margin-right: 10px;
     }
 }
+.pagination-nav {
+    width:100%;
+    float:left;
+    border-bottom:1px solid rgba(0,0,0,.15);
+    margin-bottom:2em;
+}
 
 .pagination {
-    position: relative;
+    /*position: relative;*/
     padding-left: 0;
     width: 100%;
     float: left;
     
     &:first-of-type {
-        @include trailer(2);
+        @include trailer(1);
     }
 
-    &:first-of-type:after {
+/*    &:first-of-type:after {
         content: "";
         display: block;
         width: 100%;
@@ -197,7 +203,7 @@ nav ul {
         position: absolute;
         bottom: rhythm(-1);
         left: 0;
-    }
+    }*/
     
     & > *:last-child {
         margin-right: 0;
@@ -248,12 +254,15 @@ nav ul {
 }
 
 #sort-links {
-    background-color: #fff;
+    
     float: right;
-    margin-top: rhythm(-3.5);
+    margin-top: -5.75em;
+
 
     span {
-        padding: rhythm(.25) 7px rhythm(.25) 10px;
+        padding: rhythm(.4) 7px rhythm(.4) 10px;
+        @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
+        background-color: #fff;
     }
 
     ul, li, a {
@@ -262,10 +271,12 @@ nav ul {
 
     ul {
         margin-bottom: 0;
-        @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
-        padding-left: 0;
+/*        @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
+*/        padding-left: 0;
     }
-    
+    li {
+        @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
+    }
     a {
         background-color: $gold;
         color: #fff;
