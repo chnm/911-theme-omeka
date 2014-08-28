@@ -181,7 +181,7 @@ nav ul {
     width:100%;
     float:left;
     border-bottom:1px solid rgba(0,0,0,.15);
-    margin-bottom:2em;
+    margin-bottom:3em;
 }
 
 .pagination {
@@ -256,11 +256,11 @@ nav ul {
 #sort-links {
     
     float: right;
-    margin-top: -5.75em;
+    margin-top: -3.75em;
 
 
     span {
-        padding: rhythm(.4) 7px rhythm(.4) 10px;
+        padding: rhythm(.35) 7px rhythm(.35) 10px;
         @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
         background-color: #fff;
     }
