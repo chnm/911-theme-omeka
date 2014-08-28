@@ -44,6 +44,9 @@ strong, b {
 p, ol, ul, dl {
     @include trailer();
 }
+ol {
+    padding-left: 2em;
+}
 
 ul {
     padding-left: 1.25em;
@@ -81,7 +84,10 @@ h4 {
     @include trailer(1, 1.5 * $base-font-size);
     font-weight: bold;
 }
-
+section {
+    display:block;
+    padding:.5em 0 1em;
+}
 table {
     width: 100%;
     margin: rhythm(2) 0;
@@ -271,8 +277,7 @@ nav ul {
 
     ul {
         margin-bottom: 0;
-/*        @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
-*/        padding-left: 0;
+        padding-left: 0;
     }
     li {
         @include box-shadow(0px 1px 1px rgba(0,0,0,.15));
@@ -435,6 +440,14 @@ footer {
         width:80%;
         float:left;
         padding-left:20px;
+    }
+}
+#faqs #primary ul {
+    margin:0;
+    padding-left:1em;
+    li {
+        list-style-type: none;
+        padding-bottom:5px;
     }
 }
 /* @group ------ Carousel ----- */
