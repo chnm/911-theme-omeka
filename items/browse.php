@@ -8,7 +8,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'items browse'));
 <nav class="items-nav navigation secondary-nav">
     <?php echo public_nav_items(); ?>
 </nav>
-
+<nav class="pagination-nav">
 <?php echo item_search_filters(); ?>
 
 <?php echo pagination_links(); ?>
@@ -20,6 +20,7 @@ $sortLinks[__('Title')] = 'Dublin Core,Title';
 $sortLinks[__('Creator')] = 'Dublin Core,Creator';
 $sortLinks[__('Date Added')] = 'added';
 ?>
+</nav>
 <div id="sort-links">
     <span class="sort-label"><?php echo __('Sort by: '); ?></span><?php echo browse_sort_links($sortLinks); ?>
 </div>
