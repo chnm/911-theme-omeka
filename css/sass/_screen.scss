@@ -363,10 +363,17 @@ header {
 
 footer {
     clear: both;
+    border-color: lighten($gold, 30%);
+    @include leading-border(1px, .5, $base-font-size, solid);
+    @include trailer();
+    letter-spacing: 1px;
     
     nav li {
         margin-right: 10px;
     }
+}
+#footer-text {
+    font-size:.8em;
 }
 
 /* @end */
