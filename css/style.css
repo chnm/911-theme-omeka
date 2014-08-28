@@ -589,6 +589,24 @@
     margin: 0 auto;
   }
 
+  /* @group ------ Contribution Plugin ----- */
+  /* line 473, sass/_screen.scss */
+  .contribution #primary {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  /* line 478, sass/_screen.scss */
+  #contribution-type-form {
+    margin-top: 1em;
+  }
+  /* line 480, sass/_screen.scss */
+  #contribution-type-form two.columns.alpha {
+    font-family: "PT Serif", serif;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+
   /* @end */
 }
 @media screen and (max-width: 500px) {

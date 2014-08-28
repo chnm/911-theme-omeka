@@ -468,4 +468,19 @@ footer {
 .jcarousel img {
     margin:0 auto;
 }
+
+/* @group ------ Contribution Plugin ----- */
+.contribution #primary {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#contribution-type-form {
+    margin-top:1em;
+    two.columns.alpha {
+        font-family: "PT Serif", serif;
+        @include trailer(1, 1.5 * $base-font-size);
+        font-weight: bold;
+    }
+}
 /* @end */
