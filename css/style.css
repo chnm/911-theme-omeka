@@ -3,7 +3,7 @@
    * In this file you should write your main styles. (or centralize your imports)
    * Import this file using the following HTML or equivalent:
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-  /* line 17, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@
     vertical-align: baseline;
   }
 
-  /* line 22, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 22, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html {
     line-height: 1;
   }
 
-  /* line 24, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 24, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   ol, ul {
     list-style: none;
   }
 
-  /* line 26, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 26, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   table {
     border-collapse: collapse;
     border-spacing: 0;
   }
 
-  /* line 28, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 28, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   caption, th, td {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
   }
 
-  /* line 30, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 30, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q, blockquote {
     quotes: none;
   }
-  /* line 103, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none;
   }
 
-  /* line 32, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 32, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   a img {
     border: none;
   }
 
-  /* line 116, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 116, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
   }
@@ -243,7 +243,7 @@
     padding-top: 3em;
     padding-bottom: 3em;
   }
-  /* line 38, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   #wrap:after {
     content: "";
     display: table;
@@ -564,43 +564,44 @@
   .gallery img {
     width: 20%;
     float: left;
+    background-color: #fff;
   }
-  /* line 452, sass/_screen.scss */
+  /* line 453, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 458, sass/_screen.scss */
+  /* line 459, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 461, sass/_screen.scss */
+  /* line 462, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 468, sass/_screen.scss */
+  /* line 469, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 473, sass/_screen.scss */
+  /* line 474, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 478, sass/_screen.scss */
+  /* line 479, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 480, sass/_screen.scss */
+  /* line 481, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
