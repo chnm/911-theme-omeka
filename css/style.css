@@ -571,7 +571,7 @@
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
   /* line 458, sass/_screen.scss */
@@ -581,7 +581,7 @@
   /* line 462, sass/_screen.scss */
   #home .collection img {
     float: left;
-    padding-right: 1em;
+    padding: 0 1em 1em 0;
   }
   /* line 466, sass/_screen.scss */
   #home .collection .collection-description {
@@ -666,6 +666,13 @@
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.525em 7px 0.525em 10px;
+  }
+
+  /* line 25, sass/_mobile.scss */
+  #home .collection .collection-description {
+    width: 100%;
+    float: left;
+    padding-top: 1em;
   }
 }
 @media print {

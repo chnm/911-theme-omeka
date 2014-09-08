@@ -453,7 +453,7 @@ footer {
 #home .collection {
     display:inline-block;
     margin-bottom:1em;
-    padding-bottom:1em;
+    padding-bottom:.5em;
     border-bottom:0.07143em solid rgba(0, 0, 0, 0.2);
     &:last-of-type {
         border-bottom:none;
@@ -461,7 +461,7 @@ footer {
 
     img {
         float:left;
-        padding-right:1em;
+        padding:0 1em 1em 0;
     }
     .collection-description{
         width:70%;
