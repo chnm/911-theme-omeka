@@ -568,86 +568,87 @@
   /* line 453, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.2);
-    padding: 1em;
+    padding: 1em 2em;
     margin-bottom: 1.5em;
     width: 100%;
     float: left;
+    font-size: 15px;
   }
-  /* line 460, sass/_screen.scss */
+  /* line 461, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 465, sass/_screen.scss */
+  /* line 466, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 470, sass/_screen.scss */
+  /* line 471, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 474, sass/_screen.scss */
+  /* line 475, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 478, sass/_screen.scss */
+  /* line 479, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 483, sass/_screen.scss */
+  /* line 484, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 488, sass/_screen.scss */
+  /* line 489, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 493, sass/_screen.scss */
+  /* line 494, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 500, sass/_screen.scss */
+  /* line 501, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 503, sass/_screen.scss */
+  /* line 504, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 510, sass/_screen.scss */
+  /* line 511, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 515, sass/_screen.scss */
+  /* line 516, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 520, sass/_screen.scss */
+  /* line 521, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 522, sass/_screen.scss */
+  /* line 523, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
