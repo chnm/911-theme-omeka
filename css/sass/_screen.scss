@@ -441,6 +441,15 @@ footer {
 #home h1 {
     display:none;
 }
+#home .secondary {
+    background-color:rgba(142,130,100,.2);
+    padding:1em;
+    margin-bottom:1.5em;
+
+    p:last-of-type{
+        margin-bottom:0;
+    }
+}
 #home .collection {
     display:inline-block;
     margin-bottom:1em;

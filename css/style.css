@@ -557,75 +557,86 @@
   }
 
   /* line 444, sass/_screen.scss */
+  #home .secondary {
+    background-color: rgba(142, 130, 100, 0.2);
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+  /* line 449, sass/_screen.scss */
+  #home .secondary p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /* line 453, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 449, sass/_screen.scss */
+  /* line 458, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 453, sass/_screen.scss */
+  /* line 462, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding-right: 1em;
   }
-  /* line 457, sass/_screen.scss */
+  /* line 466, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 462, sass/_screen.scss */
+  /* line 471, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 467, sass/_screen.scss */
+  /* line 476, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 472, sass/_screen.scss */
+  /* line 481, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 479, sass/_screen.scss */
+  /* line 488, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 482, sass/_screen.scss */
+  /* line 491, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 489, sass/_screen.scss */
+  /* line 498, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 494, sass/_screen.scss */
+  /* line 503, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 499, sass/_screen.scss */
+  /* line 508, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 501, sass/_screen.scss */
+  /* line 510, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
