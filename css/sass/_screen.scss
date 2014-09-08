@@ -520,11 +520,15 @@ footer {
     }
     li {
         list-style-type: none;
-        @extend h4;
+        @extend h3;
     }
     ul ul {
         padding-left:2em;
+        
+    }
+    ul ul li {
         list-style-type: disc;
+        @extend h4;
     }
     ul ul ul {
         display:none;

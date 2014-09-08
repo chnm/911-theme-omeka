@@ -5,7 +5,7 @@
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
   /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, #collection-tree li, h5, h6, p, blockquote, pre,
+  h1, h2, h3, #collection-tree li, h4, #collection-tree ul ul li, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
@@ -144,7 +144,7 @@
   }
 
   /* line 75, sass/_screen.scss */
-  h3 {
+  h3, #collection-tree li {
     font-size: 17.5px;
     line-height: 23px;
     margin-bottom: 1.09524em;
@@ -152,7 +152,7 @@
   }
 
   /* line 82, sass/_screen.scss */
-  h4, #collection-tree li {
+  h4, #collection-tree ul ul li {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
     font-weight: bold;
@@ -650,25 +650,28 @@
   /* line 525, sass/_screen.scss */
   #collection-tree ul ul {
     padding-left: 2em;
-    list-style-type: disc;
   }
   /* line 529, sass/_screen.scss */
+  #collection-tree ul ul li {
+    list-style-type: disc;
+  }
+  /* line 533, sass/_screen.scss */
   #collection-tree ul ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 535, sass/_screen.scss */
+  /* line 539, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 540, sass/_screen.scss */
+  /* line 544, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 542, sass/_screen.scss */
+  /* line 546, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
