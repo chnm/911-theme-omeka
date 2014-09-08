@@ -511,6 +511,21 @@ footer {
 .jcarousel img {
     margin:0 auto;
 }
+/* @group ------ Collection-Tree ----- */
+
+#collection-tree {
+    ul{
+        margin:0;
+        padding:0;
+    }
+    li {
+        list-style-type: none;
+        @extend h2;
+    }
+    ul ul {
+        display:none;
+    }
+}
 
 /* @group ------ Contribution Plugin ----- */
 .contribution #primary {
