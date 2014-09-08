@@ -621,58 +621,63 @@
   }
 
   /* line 502, sass/_screen.scss */
+  #about #content, #faqs #content, #staff #content, #partners #content {
+    padding-right: 5em;
+  }
+
+  /* line 507, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 505, sass/_screen.scss */
+  /* line 510, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 512, sass/_screen.scss */
+  /* line 517, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 518, sass/_screen.scss */
+  /* line 523, sass/_screen.scss */
   #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 522, sass/_screen.scss */
+  /* line 527, sass/_screen.scss */
   #collection-tree li {
     list-style-type: none;
     margin-bottom: 0;
   }
-  /* line 527, sass/_screen.scss */
+  /* line 532, sass/_screen.scss */
   #collection-tree ul ul {
     padding-left: 2em;
   }
-  /* line 531, sass/_screen.scss */
+  /* line 536, sass/_screen.scss */
   #collection-tree ul ul li {
     list-style-type: disc;
   }
-  /* line 534, sass/_screen.scss */
+  /* line 539, sass/_screen.scss */
   #collection-tree ul ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 540, sass/_screen.scss */
+  /* line 545, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 545, sass/_screen.scss */
+  /* line 550, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 547, sass/_screen.scss */
+  /* line 552, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
