@@ -160,6 +160,7 @@ button,
 
 #content {
     position: relative;
+    padding:0 1em;
 }
 
 /* @end */
@@ -515,12 +516,13 @@ footer {
 
 #collection-tree {
     ul{
-        margin:0;
+        margin:0 0 1em 0;
         padding:0;
     }
     li {
         list-style-type: none;
         @extend h4;
+        margin-bottom:0;
     }
     ul ul {
         padding-left:2em;
