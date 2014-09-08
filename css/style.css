@@ -5,7 +5,7 @@
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
   /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
-  h1, h2, h3, #collection-tree li, h4, h5, h6, p, blockquote, pre,
+  h1, h2, h3, h4, #collection-tree li, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
@@ -144,7 +144,7 @@
   }
 
   /* line 75, sass/_screen.scss */
-  h3, #collection-tree li {
+  h3 {
     font-size: 17.5px;
     line-height: 23px;
     margin-bottom: 1.09524em;
@@ -152,7 +152,7 @@
   }
 
   /* line 82, sass/_screen.scss */
-  h4 {
+  h4, #collection-tree li {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
     font-weight: bold;
@@ -648,7 +648,7 @@
     list-style-type: none;
   }
   /* line 525, sass/_screen.scss */
-  #collection-tree ul ul {
+  #collection-tree ul ul ul {
     display: none;
   }
 

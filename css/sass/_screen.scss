@@ -520,9 +520,9 @@ footer {
     }
     li {
         list-style-type: none;
-        @extend h3;
+        @extend h4;
     }
-    ul ul {
+    ul ul ul {
         display:none;
     }
 }
