@@ -522,6 +522,10 @@ footer {
         list-style-type: none;
         @extend h4;
     }
+    ul ul {
+        padding-left:2em;
+        list-style-type: disc;
+    }
     ul ul ul {
         display:none;
     }

@@ -648,22 +648,27 @@
     list-style-type: none;
   }
   /* line 525, sass/_screen.scss */
+  #collection-tree ul ul {
+    padding-left: 2em;
+    list-style-type: disc;
+  }
+  /* line 529, sass/_screen.scss */
   #collection-tree ul ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 531, sass/_screen.scss */
+  /* line 535, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 536, sass/_screen.scss */
+  /* line 540, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 538, sass/_screen.scss */
+  /* line 542, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
