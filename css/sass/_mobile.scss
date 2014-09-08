@@ -3,6 +3,9 @@
 @import "compass/typography";
 @import "susy";
 
+#wrap {
+    background-color: rgba(255,255,255,.5);
+}
 .pagination-nav {
 	border-bottom: none;
 	margin-bottom:initial;
@@ -20,11 +23,8 @@
         padding: rhythm(.35) 7px rhythm(.35) 10px;
     }
 }
-
-#home .collection {
-    .collection-description{
-        width:100%;
-        float:left;
-        padding-top:1em;
-    }
+#home .text, #home .secondary {
+    padding: 1em .5em;
+    font-size:14px;
+    line-height:24px;
 }

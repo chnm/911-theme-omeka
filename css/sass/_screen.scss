@@ -160,6 +160,7 @@ button,
 
 #content {
     position: relative;
+    padding:0 1em;
 }
 
 /* @end */
@@ -441,13 +442,26 @@ footer {
 #home h1 {
     display:none;
 }
-#home .secondary {
-    background-color:rgba(142,130,100,.2);
-    padding:1em;
-    margin-bottom:1.5em;
+#home {
+    .text {
+        width:100%;
+        float:left;
+        padding:1em 2em 0;
+        line-height: 25px;
+        font-size:15px;
+        line-height: 25px;
+    }
+    .secondary {
+        background-color:rgba(142,130,100,.2);
+        padding:1em 2em;
+        margin-bottom:1.5em;
+        width:100%;
+        float:left;
+        font-size: 15px;
 
-    p:last-of-type{
-        margin-bottom:0;
+        p:last-of-type{
+            margin-bottom:0;
+        }
     }
 }
 #home .collection {
@@ -497,6 +511,29 @@ footer {
 
 .jcarousel img {
     margin:0 auto;
+}
+/* @group ------ Collection-Tree ----- */
+
+#collection-tree {
+    ul{
+        margin:0 0 1em 0;
+        padding:0;
+    }
+    li {
+        list-style-type: none;
+        @extend h4;
+        margin-bottom:0;
+    }
+    ul ul {
+        padding-left:2em;
+        
+    }
+    ul ul li {
+        list-style-type: disc;
+    }
+    ul ul ul {
+        display:none;
+    }
 }
 
 /* @group ------ Contribution Plugin ----- */
