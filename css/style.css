@@ -461,8 +461,9 @@
   #search-form input[type=text] {
     width: 70%;
     float: left;
+    height: 31px;
   }
-  /* line 354, sass/_screen.scss */
+  /* line 356, sass/_screen.scss */
   #search-form input[type=submit], #search-form button[type=submit] {
     width: 30%;
     float: left;
@@ -470,7 +471,7 @@
 
   /* @end */
   /* @group ----- Footer ----- */
-  /* line 364, sass/_screen.scss */
+  /* line 366, sass/_screen.scss */
   footer {
     clear: both;
     border-color: #cfcabc;
@@ -480,16 +481,16 @@
     margin-bottom: 1.5em;
     letter-spacing: 1px;
   }
-  /* line 371, sass/_screen.scss */
+  /* line 373, sass/_screen.scss */
   footer nav li {
     margin-right: 10px;
   }
 
-  /* line 375, sass/_screen.scss */
+  /* line 377, sass/_screen.scss */
   #footer-text {
     font-size: .8em;
   }
-  /* line 377, sass/_screen.scss */
+  /* line 379, sass/_screen.scss */
   #footer-text p {
     margin-bottom: .5em;
   }
@@ -501,7 +502,7 @@
   } */
   /* @end */
   /* @group ----- Items ----- */
-  /* line 395, sass/_screen.scss */
+  /* line 397, sass/_screen.scss */
   .items .item {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -509,32 +510,32 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.5em;
   }
-  /* line 401, sass/_screen.scss */
+  /* line 403, sass/_screen.scss */
   .items .item-meta {
     padding-bottom: 1em;
   }
-  /* line 404, sass/_screen.scss */
+  /* line 406, sass/_screen.scss */
   .items .element-set {
     margin-bottom: 3em;
   }
-  /* line 408, sass/_screen.scss */
+  /* line 410, sass/_screen.scss */
   .items .element {
     margin-bottom: 1.5em;
   }
 
-  /* line 413, sass/_screen.scss */
+  /* line 415, sass/_screen.scss */
   .search-entry {
     margin-bottom: 1.5em;
   }
 
-  /* line 417, sass/_screen.scss */
+  /* line 419, sass/_screen.scss */
   #advanced-search-form {
     margin-bottom: 3em;
   }
 
   /* @end */
   /* @group ----- Collections ----- */
-  /* line 426, sass/_screen.scss */
+  /* line 428, sass/_screen.scss */
   .collections .collection {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -545,64 +546,97 @@
 
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 436, sass/_screen.scss */
+  /* line 438, sass/_screen.scss */
   #home #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 439, sass/_screen.scss */
+  /* line 441, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 443, sass/_screen.scss */
+  /* line 444, sass/_screen.scss */
+  #home .secondary {
+    background-color: rgba(142, 130, 100, 0.2);
+    padding: 1em;
+    margin-bottom: 1.5em;
+  }
+  /* line 449, sass/_screen.scss */
+  #home .secondary p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /* line 453, sass/_screen.scss */
+  #home .collection {
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 458, sass/_screen.scss */
+  #home .collection:last-of-type {
+    border-bottom: none;
+  }
+  /* line 462, sass/_screen.scss */
+  #home .collection img {
+    float: left;
+    padding: 0 1em 1em 0;
+  }
+  /* line 466, sass/_screen.scss */
+  #home .collection .collection-description {
+    width: 70%;
+    float: left;
+  }
+
+  /* line 471, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 448, sass/_screen.scss */
+  /* line 476, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 453, sass/_screen.scss */
+  /* line 481, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 459, sass/_screen.scss */
+  /* line 488, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 462, sass/_screen.scss */
+  /* line 491, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 469, sass/_screen.scss */
+  /* line 498, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 474, sass/_screen.scss */
+  /* line 503, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 479, sass/_screen.scss */
+  /* line 508, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 481, sass/_screen.scss */
+  /* line 510, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
@@ -632,6 +666,13 @@
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.525em 7px 0.525em 10px;
+  }
+
+  /* line 25, sass/_mobile.scss */
+  #home .collection .collection-description {
+    width: 100%;
+    float: left;
+    padding-top: 1em;
   }
 }
 @media print {

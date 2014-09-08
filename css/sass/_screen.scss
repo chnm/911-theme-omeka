@@ -349,6 +349,8 @@ header {
     input[type=text] {
         width: 70%;
         float: left;
+        height: 31px;
+
     }
     
     input[type=submit], button[type=submit] {
@@ -439,7 +441,33 @@ footer {
 #home h1 {
     display:none;
 }
+#home .secondary {
+    background-color:rgba(142,130,100,.2);
+    padding:1em;
+    margin-bottom:1.5em;
 
+    p:last-of-type{
+        margin-bottom:0;
+    }
+}
+#home .collection {
+    display:inline-block;
+    margin-bottom:1em;
+    padding-bottom:.5em;
+    border-bottom:0.07143em solid rgba(0, 0, 0, 0.2);
+    &:last-of-type {
+        border-bottom:none;
+    }
+
+    img {
+        float:left;
+        padding:0 1em 1em 0;
+    }
+    .collection-description{
+        width:70%;
+        float:left;
+    }
+}
 .gallery {
     width: 100%;
     float:left;
@@ -456,6 +484,7 @@ footer {
         padding-left:20px;
     }
 }
+
 #faqs #primary ul {
     margin:0;
     padding-left:1em;
