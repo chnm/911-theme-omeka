@@ -441,13 +441,25 @@ footer {
 #home h1 {
     display:none;
 }
-#home .secondary {
-    background-color:rgba(142,130,100,.2);
-    padding:1em;
-    margin-bottom:1.5em;
+#home {
+    .text {
+        width:100%;
+        float:left;
+        padding:1em 2em 0;
+        line-height: 25px;
+        font-size:15px;
+        line-height: 25px;
+    }
+    .secondary {
+        background-color:rgba(142,130,100,.2);
+        padding:1em;
+        margin-bottom:1.5em;
+        width:100%;
+        float:left;
 
-    p:last-of-type{
-        margin-bottom:0;
+        p:last-of-type{
+            margin-bottom:0;
+        }
     }
 }
 #home .collection {
