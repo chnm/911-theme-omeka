@@ -520,7 +520,7 @@ footer {
     }
     li {
         list-style-type: none;
-        @extend h2;
+        @extend h3;
     }
     ul ul {
         display:none;
