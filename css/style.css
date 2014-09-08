@@ -555,54 +555,76 @@
     display: none;
   }
 
-  /* line 443, sass/_screen.scss */
+  /* line 442, sass/_screen.scss */
+  #home .collection {
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-bottom: .3em;
+    border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 447, sass/_screen.scss */
+  #home .collection:last-of-type {
+    border-bottom: none;
+  }
+  /* line 451, sass/_screen.scss */
+  #home .collection img {
+    float: left;
+    padding-right: 1em;
+  }
+  /* line 455, sass/_screen.scss */
+  #home .collection .collection-description {
+    width: 70%;
+    float: left;
+  }
+
+  /* line 460, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 448, sass/_screen.scss */
+  /* line 465, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 453, sass/_screen.scss */
+  /* line 470, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 459, sass/_screen.scss */
+  /* line 477, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 462, sass/_screen.scss */
+  /* line 480, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 469, sass/_screen.scss */
+  /* line 487, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 474, sass/_screen.scss */
+  /* line 492, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 479, sass/_screen.scss */
+  /* line 497, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 481, sass/_screen.scss */
+  /* line 499, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1em;
