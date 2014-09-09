@@ -562,11 +562,23 @@ footer {
 }
 
 #contribution-type-form {
-    margin-top:1em;
-    two.columns.alpha {
+    margin-top:2em;
+    .alpha {
         font-family: "PT Serif", serif;
-        @include trailer(1, 1.5 * $base-font-size);
+        margin-bottom:.5em;
         font-weight: bold;
+        font-size: $base-font-size*1.2;
+    }
+    .explanation {
+        margin-bottom:1em;
+    }
+}
+#contribution-confirm-submit {
+    p {
+        margin: 1em 0;
+    }
+    input[type=submit] {
+        margin:1em 0;
     }
 }
 /* @end */

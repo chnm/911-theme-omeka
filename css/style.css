@@ -690,13 +690,27 @@
 
   /* line 564, sass/_screen.scss */
   #contribution-type-form {
-    margin-top: 1em;
+    margin-top: 2em;
   }
   /* line 566, sass/_screen.scss */
-  #contribution-type-form two.columns.alpha {
+  #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
-    margin-bottom: 1.09524em;
+    margin-bottom: .5em;
     font-weight: bold;
+    font-size: 16.8px;
+  }
+  /* line 572, sass/_screen.scss */
+  #contribution-type-form .explanation {
+    margin-bottom: 1em;
+  }
+
+  /* line 577, sass/_screen.scss */
+  #contribution-confirm-submit p {
+    margin: 1em 0;
+  }
+  /* line 580, sass/_screen.scss */
+  #contribution-confirm-submit input[type=submit] {
+    margin: 1em 0;
   }
 
   /* @end */
