@@ -785,7 +785,7 @@
       background-color: rgba(255,255,255,.5);
   }*/
   /* line 10, sass/_mobile.scss */
-  input[type=textarea] {
+  textarea {
     max-width: 350px;
   }
 
