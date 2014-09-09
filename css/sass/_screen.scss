@@ -16,7 +16,7 @@
 }
 
 body {
-    background: url('../images/bg_small.jpg') no-repeat top center fixed;
+    background: url('../images/bg.jpg') no-repeat top center fixed;
     background-size: cover;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: $base-font-size;
@@ -263,7 +263,7 @@ nav ul {
 #sort-links {
     
     float: right;
-    margin-top: -5.75em;
+    margin-top: -6.25em;
 
 
     span {
@@ -439,6 +439,7 @@ footer {
 #home #simple-pages-breadcrumbs {
     display:none;
 }
+
 #home h1 {
     display:none;
 }
@@ -498,6 +499,11 @@ footer {
         padding-left:20px;
     }
 }
+#about, #faqs, #staff, #partners {
+    #content {
+        padding-right:5em;
+    }
+}
 
 #faqs #primary ul {
     margin:0;
@@ -536,22 +542,6 @@ footer {
             -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
             font-weight: bold;
             letter-spacing: 1px;
-            /*&:hover{
-                ul {
-                    display:block;
-                    width:100%;
-                    float:left;
-                    background-color:#fff;
-                    li {
-                        display:block;
-                        width:100%;
-                        border:none;
-                        height:auto;
-                        padding:.5em;
-
-                    }
-                }
-            }*/
         }
     }
    
