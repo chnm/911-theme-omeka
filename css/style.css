@@ -1,106 +1,847 @@
-/*
-Syntax error: Invalid CSS after "        max-width:": expected expression (e.g. 1px, bold), was ";"
-        on line 50 of /Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/_mobile.scss
-        from line 6 of /Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/style.scss
+@media screen {
+  /* Welcome to Compass.
+   * In this file you should write your main styles. (or centralize your imports)
+   * Import this file using the following HTML or equivalent:
+   * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+  /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
 
-Backtrace:
-/Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/_mobile.scss:50
-/Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/style.scss:6
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1147:in `expected'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/script/lexer.rb:196:in `expected!'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/script/parser.rb:478:in `assert_expr'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/script/parser.rb:49:in `parse'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1022:in `sass_script'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:882:in `value!'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:859:in `declaration'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:582:in `block in declaration_or_ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1123:in `call'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1123:in `rethrow'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:554:in `block_child'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:543:in `block_contents'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:535:in `block'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:529:in `ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1123:in `call'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:1123:in `rethrow'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:554:in `block_child'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:546:in `block_contents'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:535:in `block'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:529:in `ruleset'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:553:in `block_child'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:546:in `block_contents'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:82:in `stylesheet'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/scss/parser.rb:27:in `parse'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:342:in `_to_tree'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:274:in `to_tree'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:362:in `visit_media'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/tree/root_node.rb:20:in `render'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:315:in `_render'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/sass-3.2.18/lib/sass/engine.rb:262:in `render'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:126:in `timed'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:138:in `block in compile'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/logger.rb:45:in `red'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:137:in `compile'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:101:in `each'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:101:in `block in run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:126:in `timed'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/compiler.rb:100:in `run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/commands/base.rb:18:in `execute'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/bin/compass:30:in `block in <top (required)>'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/bin/compass:44:in `call'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/bin/compass:44:in `<top (required)>'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/bin/compass:23:in `load'
-/Users/jeriwieringa/.rbenv/versions/2.0.0-p247/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"        max-width:\": expected expression (e.g. 1px, bold), was \";\"\A         on line 50 of /Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/_mobile.scss\A         from line 6 of /Users/jeriwieringa/Sites/Omeka_dev/themes/911/css/sass/style.scss"; }
+  /* line 22, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  html {
+    line-height: 1;
+  }
+
+  /* line 24, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  ol, ul {
+    list-style: none;
+  }
+
+  /* line 26, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  /* line 28, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+
+  /* line 30, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q, blockquote {
+    quotes: none;
+  }
+  /* line 103, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+  }
+
+  /* line 32, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  a img {
+    border: none;
+  }
+
+  /* line 116, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+  }
+
+  /* @group ----- Generic HTML Elements ----- */
+  /* line 14, sass/_screen.scss */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 18, sass/_screen.scss */
+  body {
+    background: url("../images/bg.jpg") no-repeat top center fixed;
+    background-size: cover;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #4d4d4d;
+  }
+
+  /* line 27, sass/_screen.scss */
+  a {
+    text-decoration: none;
+    color: #8e8264;
+  }
+  /* line 31, sass/_screen.scss */
+  a:hover, a:active {
+    color: #bba46a;
+  }
+
+  /* line 36, sass/_screen.scss */
+  em, i {
+    font-style: italic;
+  }
+
+  /* line 40, sass/_screen.scss */
+  strong, b {
+    font-weight: bold;
+  }
+
+  /* line 44, sass/_screen.scss */
+  p, ol, ul, dl {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 47, sass/_screen.scss */
+  ol {
+    padding-left: 2em;
+  }
+
+  /* line 51, sass/_screen.scss */
+  ul {
+    padding-left: 1.25em;
+  }
+  /* line 54, sass/_screen.scss */
+  ul li {
+    list-style-type: disc;
+  }
+
+  /* line 59, sass/_screen.scss */
+  h1 {
+    font-family: "PT Serif", serif;
+    font-size: 28px;
+    line-height: 46px;
+    color: #213881;
+    margin-bottom: 0.82143em;
+  }
+
+  /* line 67, sass/_screen.scss */
+  h2 {
+    font-size: 24.5px;
+    line-height: 46px;
+    margin-bottom: 1.09524em;
+    font-weight: bold;
+    font-family: "PT Serif", serif;
+  }
+
+  /* line 75, sass/_screen.scss */
+  h3 {
+    font-size: 17.5px;
+    line-height: 23px;
+    margin-bottom: 1.09524em;
+    font-weight: bold;
+  }
+
+  /* line 82, sass/_screen.scss */
+  h4 {
+    font-family: "PT Serif", serif;
+    margin-bottom: 1.09524em;
+    font-weight: bold;
+  }
+
+  /* line 87, sass/_screen.scss */
+  section {
+    display: block;
+    padding: .5em 0 1em;
+  }
+
+  /* line 91, sass/_screen.scss */
+  table {
+    width: 100%;
+    margin: 3.28571em 0;
+    border-collapse: collapse;
+    border-spacing: 0px;
+  }
+
+  /* line 98, sass/_screen.scss */
+  th, td {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 104, sass/_screen.scss */
+  th {
+    text-align: left;
+    color: #213881;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 113, sass/_screen.scss */
+  input[type=text],
+  input[type=password],
+  textarea {
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 0.41071em 10px;
+    border-style: solid;
+    border-width: 0.07143em;
+    padding: 0.33929em;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0;
+  }
+
+  /* line 125, sass/_screen.scss */
+  input[type=submit],
+  button,
+  .button {
+    background-color: #8e8264;
+    padding: 0.41071em 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    border: 0;
+    margin: 0;
+  }
+
+  /* @end */
+  /* @group ----- Reusable classes ----- */
+  /* line 139, sass/_screen.scss */
+  .field {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 143, sass/_screen.scss */
+  .item-img * {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 1.64286em;
+  }
+
+  /* @end */
+  /* @group ----- Structure ----- */
+  /* line 153, sass/_screen.scss */
+  #wrap {
+    *zoom: 1;
+    max-width: 65em;
+    _width: 65em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.28571em;
+    padding-bottom: 3.28571em;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  /* line 38, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* line 160, sass/_screen.scss */
+  #content {
+    position: relative;
+  }
+
+  /* @end */
+  /* @group ----- Navigation ----- */
+  /* line 169, sass/_screen.scss */
+  nav ul {
+    padding-left: 0;
+  }
+  /* line 172, sass/_screen.scss */
+  nav ul li {
+    display: inline-block;
+  }
+  /* line 176, sass/_screen.scss */
+  nav ul li ul {
+    display: none;
+  }
+
+  /* line 182, sass/_screen.scss */
+  .secondary-nav li {
+    margin-right: 10px;
+  }
+
+  /* line 186, sass/_screen.scss */
+  .pagination-nav {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    margin-bottom: 2em;
+  }
+
+  /* line 193, sass/_screen.scss */
+  .pagination {
+    /*position: relative;*/
+    padding-left: 0;
+    width: 100%;
+    float: left;
+    /*    &:first-of-type:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: rgba(0,0,0,.15);
+            position: absolute;
+            bottom: rhythm(-1);
+            left: 0;
+        }*/
+  }
+  /* line 199, sass/_screen.scss */
+  .pagination:first-of-type {
+    margin-bottom: 1.64286em;
+  }
+  /* line 214, sass/_screen.scss */
+  .pagination > *:last-child {
+    margin-right: 0;
+  }
+  /* line 218, sass/_screen.scss */
+  .pagination .page-input {
+    padding: 0.41071em 10px 0.20536em;
+  }
+  /* line 222, sass/_screen.scss */
+  .pagination input[type=text] {
+    background: transparent;
+    border: 0;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    border-bottom-style: dotted;
+    border-bottom-width: 0.07143em;
+    padding-bottom: -0.07143em;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    width: 3em;
+    margin: 0;
+  }
+  /* line 236, sass/_screen.scss */
+  .pagination li {
+    display: block;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    float: left;
+  }
+  /* line 243, sass/_screen.scss */
+  .pagination .pagination_next,
+  .pagination .pagination_previous {
+    background-color: #8e8264;
+  }
+  /* line 246, sass/_screen.scss */
+  .pagination .pagination_next a,
+  .pagination .pagination_previous a {
+    display: inline-block;
+    padding: 0.41071em 10px;
+    color: #fff;
+  }
+  /* line 253, sass/_screen.scss */
+  .pagination + *:not(#sort-links) {
+    clear: both;
+  }
+  /* line 257, sass/_screen.scss */
+  .pagination:last-of-type + * {
+    clear: both;
+  }
+
+  /* line 262, sass/_screen.scss */
+  #sort-links {
+    float: right;
+    margin-top: -6.25em;
+  }
+  /* line 268, sass/_screen.scss */
+  #sort-links span {
+    padding: 0.65714em 7px 0.65714em 10px;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  /* line 274, sass/_screen.scss */
+  #sort-links ul, #sort-links li, #sort-links a {
+    display: inline-block;
+  }
+  /* line 278, sass/_screen.scss */
+  #sort-links ul {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  /* line 282, sass/_screen.scss */
+  #sort-links li {
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+  /* line 285, sass/_screen.scss */
+  #sort-links a {
+    background-color: #8e8264;
+    color: #fff;
+    padding: 0.41071em 10px;
+  }
+  /* line 291, sass/_screen.scss */
+  #sort-links + * {
+    clear: both;
+  }
+
+  /* @end */
+  /* @group ----- Header ----- */
+  /* line 299, sass/_screen.scss */
+  header {
+    position: relative;
+  }
+
+  /* line 303, sass/_screen.scss */
+  #top-nav {
+    font-family: "PT Serif", serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #cfcabc;
+    border-top-style: solid;
+    border-top-width: 0.07143em;
+    padding-top: 0.75em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.07143em;
+    padding-bottom: 0.75em;
+    margin-bottom: 1.64286em;
+    letter-spacing: 1px;
+  }
+  /* line 313, sass/_screen.scss */
+  #top-nav ul {
+    margin-bottom: 0;
+  }
+  /* line 317, sass/_screen.scss */
+  #top-nav li ul {
+    display: none;
+  }
+  /* line 321, sass/_screen.scss */
+  #top-nav li {
+    margin: 0 10px;
+  }
+
+  /* line 326, sass/_screen.scss */
+  #site-title {
+    margin-bottom: 1.64286em;
+    text-align: center;
+  }
+  /* line 330, sass/_screen.scss */
+  #site-title * {
+    vertical-align: top;
+  }
+  /* line 334, sass/_screen.scss */
+  #site-title a {
+    display: inline-block;
+  }
+  /* line 338, sass/_screen.scss */
+  #site-title img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* line 344, sass/_screen.scss */
+  #search-form {
+    width: 100%;
+    margin-bottom: 1.64286em;
+    float: left;
+  }
+  /* line 349, sass/_screen.scss */
+  #search-form input[type=text] {
+    width: 70%;
+    float: left;
+    height: 31px;
+  }
+  /* line 356, sass/_screen.scss */
+  #search-form input[type=submit], #search-form button[type=submit] {
+    width: 30%;
+    float: left;
+  }
+
+  /* @end */
+  /* @group ----- Footer ----- */
+  /* line 366, sass/_screen.scss */
+  footer {
+    clear: both;
+    border-color: #cfcabc;
+    border-top-style: solid;
+    border-top-width: 0.07143em;
+    padding-top: 0.75em;
+    margin-bottom: 1.64286em;
+    letter-spacing: 1px;
+  }
+  /* line 373, sass/_screen.scss */
+  footer nav li {
+    margin-right: 10px;
+  }
+
+  /* line 377, sass/_screen.scss */
+  #footer-text {
+    font-size: .8em;
+  }
+  /* line 379, sass/_screen.scss */
+  #footer-text p {
+    margin-bottom: .5em;
+  }
+
+  /* @end */
+  /* @group ----- Home ----- */
+  /* #home #search-form {
+      display: none;
+  } */
+  /* @end */
+  /* @group ----- Items ----- */
+  /* line 397, sass/_screen.scss */
+  .items .item {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 0.07143em;
+    padding-bottom: -0.07143em;
+    margin-bottom: 1.64286em;
+  }
+  /* line 403, sass/_screen.scss */
+  .items .item-meta {
+    padding-bottom: 1em;
+  }
+  /* line 406, sass/_screen.scss */
+  .items .element-set {
+    margin-bottom: 3.28571em;
+  }
+  /* line 410, sass/_screen.scss */
+  .items .element {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 415, sass/_screen.scss */
+  .search-entry {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 419, sass/_screen.scss */
+  #advanced-search-form {
+    margin-bottom: 3.28571em;
+  }
+
+  /* @end */
+  /* @group ----- Collections ----- */
+  /* line 428, sass/_screen.scss */
+  .collections .collection {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 0.07143em;
+    padding-bottom: -0.07143em;
+    margin-bottom: 1.64286em;
+  }
+
+  /* @group ------ Simple Pages ------ */
+  /* Removing breadcrumbs and h1 from pages as index.html */
+  /* line 438, sass/_screen.scss */
+  #home #simple-pages-breadcrumbs {
+    display: none;
+  }
+
+  /* line 442, sass/_screen.scss */
+  #home h1 {
+    display: none;
+  }
+
+  /* line 446, sass/_screen.scss */
+  #home .text {
+    width: 100%;
+    float: left;
+    padding: 1em 2em 0;
+    line-height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  /* line 454, sass/_screen.scss */
+  #home .secondary {
+    background-color: rgba(142, 130, 100, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    width: 100%;
+    float: left;
+    font-size: 15px;
+  }
+  /* line 462, sass/_screen.scss */
+  #home .secondary p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  /* line 467, sass/_screen.scss */
+  #home .collection {
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-bottom: .5em;
+    border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 472, sass/_screen.scss */
+  #home .collection:last-of-type {
+    border-bottom: none;
+  }
+  /* line 476, sass/_screen.scss */
+  #home .collection img {
+    float: left;
+    padding: 0 1em 1em 0;
+  }
+  /* line 480, sass/_screen.scss */
+  #home .collection .collection-description {
+    width: 70%;
+    float: left;
+  }
+
+  /* line 485, sass/_screen.scss */
+  .gallery {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+  }
+  /* line 490, sass/_screen.scss */
+  .gallery img {
+    width: 20%;
+    float: left;
+    background-color: #fff;
+  }
+  /* line 495, sass/_screen.scss */
+  .gallery p {
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+  }
+
+  /* line 502, sass/_screen.scss */
+  #about #content, #faqs #content, #staff #content, #partners #content {
+    padding-right: 5em;
+  }
+
+  /* line 507, sass/_screen.scss */
+  #faqs #primary ul {
+    margin: 0;
+    padding-left: 1em;
+  }
+  /* line 510, sass/_screen.scss */
+  #faqs #primary ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+  }
+
+  /* @group ------ Carousel ----- */
+  /* line 517, sass/_screen.scss */
+  .jcarousel img {
+    margin: 0 auto;
+  }
+
+  /* @group ------ Collection-Tree ----- */
+  /* line 522, sass/_screen.scss */
+  .collection-tree #collection-tree {
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  /* line 527, sass/_screen.scss */
+  .collection-tree #collection-tree ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+  }
+  /* line 531, sass/_screen.scss */
+  .collection-tree #collection-tree ul li {
+    list-style-type: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  /* line 535, sass/_screen.scss */
+  .collection-tree #collection-tree ul li a {
+    width: 23%;
+    min-width: 140px;
+    height: 150px;
+    margin-bottom: 0;
+    display: block;
+    padding: 2em 1.5em;
+    float: left;
+    background-color: rgba(142, 130, 100, 0.2);
+    margin: 0 10px 10px 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  /* line 550, sass/_screen.scss */
+  .collection-tree #collection-tree ul ul {
+    display: none;
+  }
+
+  /* @group ------ Contribution Plugin ----- */
+  /* line 556, sass/_screen.scss */
+  .contribution #primary {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  /* line 561, sass/_screen.scss */
+  #contribution-type-form {
+    margin-top: 2em;
+  }
+  /* line 563, sass/_screen.scss */
+  #contribution-type-form .alpha {
+    font-family: "PT Serif", serif;
+    margin-bottom: .5em;
+    font-weight: bold;
+    font-size: 16.8px;
+  }
+  /* line 569, sass/_screen.scss */
+  #contribution-type-form .explanation {
+    margin-bottom: 1em;
+  }
+  /* line 573, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile fieldset {
+    padding: 0;
+  }
+  /* line 576, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .field {
+    width: 100%;
+    float: left;
+  }
+  /* line 580, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 20%;
+    float: left;
+  }
+  /* line 584, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+  }
+
+  /* line 591, sass/_screen.scss */
+  #contribution-confirm-submit {
+    margin-top: 1em;
+  }
+  /* line 593, sass/_screen.scss */
+  #contribution-confirm-submit p {
+    margin: 1em 0;
+    font-weight: bold;
+  }
+  /* line 597, sass/_screen.scss */
+  #contribution-confirm-submit input[type=submit] {
+    margin: 1em 0;
+  }
+
+  /* @group ------ Contribution Plugin - User Profiles ----- */
+  /* line 603, sass/_screen.scss */
+  .userprofiles.required-profile {
+    margin-bottom: 1.5em;
+  }
+  /* line 605, sass/_screen.scss */
+  .userprofiles.required-profile p {
+    margin-bottom: 1em;
+  }
+  /* line 608, sass/_screen.scss */
+  .userprofiles.required-profile ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 611, sass/_screen.scss */
+  .userprofiles.required-profile ul li {
+    list-style-type: none;
+  }
+  /* line 615, sass/_screen.scss */
+  .userprofiles.required-profile ul a {
+    display: inline-block;
+    background-color: rgba(142, 130, 100, 0.2);
+    padding: .5em;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 624, sass/_screen.scss */
+  #primary {
+    width: 100%;
+    float: left;
+  }
+  /* line 627, sass/_screen.scss */
+  #primary #edit-form {
+    width: 100%;
+    float: left;
+  }
+
+  /* @end */
+}
+@media screen and (max-width: 500px) {
+  /*
+  #wrap {
+      background-color: rgba(255,255,255,.5);
+  }*/
+  /* line 10, sass/_mobile.scss */
+  input[type=textarea] {
+    max-width: 350px;
+  }
+
+  /* line 13, sass/_mobile.scss */
+  .pagination-nav {
+    border-bottom: none;
+    margin-bottom: initial;
+  }
+
+  /* line 17, sass/_mobile.scss */
+  #sort-links {
+    width: 100%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 3em;
+    background-color: transparent;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  /* line 25, sass/_mobile.scss */
+  #sort-links .sort-label {
+    background-color: #fff;
+    padding: 0.575em 7px 0.575em 10px;
+  }
+
+  /* line 30, sass/_mobile.scss */
+  #home .text, #home .secondary {
+    padding: 1em .5em;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* line 35, sass/_mobile.scss */
+  #home .collection .collection-description {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 41, sass/_mobile.scss */
+  #collection-tree ul li a {
+    width: 47%;
+  }
+
+  /* line 46, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 100%;
+    float: left;
+  }
+  /* line 50, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    float: left;
+    margin: 10px 0 0;
+  }
+}
+@media print {
+  /* Welcome to Compass. Use this file to define print styles.
+   * Import this file using the following HTML or equivalent:
+   * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+}
