@@ -6,6 +6,9 @@
 #wrap {
     background-color: rgba(255,255,255,.5);
 }*/
+input[type=textarea]{
+    max-width:350px;
+}
 .pagination-nav {
 	border-bottom: none;
 	margin-bottom:initial;
@@ -44,7 +47,7 @@
         float:left;
     }
     .five.columns.omega {
-        width:100%;
+        max-width:;
         float:left;
         margin:10px 0 0;
     }
