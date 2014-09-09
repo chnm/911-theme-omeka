@@ -644,25 +644,25 @@
 
   /* @group ------ Collection-Tree ----- */
   /* line 523, sass/_screen.scss */
-  #collection-tree {
+  .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
   /* line 528, sass/_screen.scss */
-  #collection-tree ul {
+  .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
   /* line 532, sass/_screen.scss */
-  #collection-tree ul li {
+  .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
   /* line 536, sass/_screen.scss */
-  #collection-tree ul li a {
+  .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 140px;
     height: 150px;
@@ -677,7 +677,7 @@
     margin: 0 10px 10px 0;
   }
   /* line 553, sass/_screen.scss */
-  #collection-tree ul ul {
+  .collection-tree #collection-tree ul ul {
     display: none;
   }
 
