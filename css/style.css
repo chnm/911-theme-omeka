@@ -3,7 +3,7 @@
    * In this file you should write your main styles. (or centralize your imports)
    * Import this file using the following HTML or equivalent:
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-  /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 17, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@
     vertical-align: baseline;
   }
 
-  /* line 22, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 22, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html {
     line-height: 1;
   }
 
-  /* line 24, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 24, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   ol, ul {
     list-style: none;
   }
 
-  /* line 26, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 26, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   table {
     border-collapse: collapse;
     border-spacing: 0;
   }
 
-  /* line 28, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 28, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   caption, th, td {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
   }
 
-  /* line 30, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 30, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q, blockquote {
     quotes: none;
   }
-  /* line 103, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none;
   }
 
-  /* line 32, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 32, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   a img {
     border: none;
   }
 
-  /* line 116, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 116, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
   }
@@ -229,9 +229,14 @@
     margin-bottom: 1.64286em;
   }
 
+  /* line 148, sass/_screen.scss */
+  .element {
+    margin-bottom: 1.64286em;
+  }
+
   /* @end */
   /* @group ----- Structure ----- */
-  /* line 153, sass/_screen.scss */
+  /* line 156, sass/_screen.scss */
   #wrap {
     *zoom: 1;
     max-width: 65em;
@@ -244,39 +249,39 @@
     padding-bottom: 3.28571em;
     background-color: rgba(255, 255, 255, 0.7);
   }
-  /* line 38, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   #wrap:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* line 160, sass/_screen.scss */
+  /* line 163, sass/_screen.scss */
   #content {
     position: relative;
   }
 
   /* @end */
   /* @group ----- Navigation ----- */
-  /* line 169, sass/_screen.scss */
+  /* line 172, sass/_screen.scss */
   nav ul {
     padding-left: 0;
   }
-  /* line 172, sass/_screen.scss */
+  /* line 175, sass/_screen.scss */
   nav ul li {
     display: inline-block;
   }
-  /* line 176, sass/_screen.scss */
+  /* line 179, sass/_screen.scss */
   nav ul li ul {
     display: none;
   }
 
-  /* line 182, sass/_screen.scss */
+  /* line 185, sass/_screen.scss */
   .secondary-nav li {
     margin-right: 10px;
   }
 
-  /* line 186, sass/_screen.scss */
+  /* line 189, sass/_screen.scss */
   .pagination-nav {
     width: 100%;
     float: left;
@@ -284,7 +289,7 @@
     margin-bottom: 2em;
   }
 
-  /* line 193, sass/_screen.scss */
+  /* line 196, sass/_screen.scss */
   .pagination {
     /*position: relative;*/
     padding-left: 0;
@@ -301,19 +306,19 @@
             left: 0;
         }*/
   }
-  /* line 199, sass/_screen.scss */
+  /* line 202, sass/_screen.scss */
   .pagination:first-of-type {
     margin-bottom: 1.64286em;
   }
-  /* line 214, sass/_screen.scss */
+  /* line 217, sass/_screen.scss */
   .pagination > *:last-child {
     margin-right: 0;
   }
-  /* line 218, sass/_screen.scss */
+  /* line 221, sass/_screen.scss */
   .pagination .page-input {
     padding: 0.41071em 10px 0.20536em;
   }
-  /* line 222, sass/_screen.scss */
+  /* line 225, sass/_screen.scss */
   .pagination input[type=text] {
     background: transparent;
     border: 0;
@@ -329,7 +334,7 @@
     width: 3em;
     margin: 0;
   }
-  /* line 236, sass/_screen.scss */
+  /* line 239, sass/_screen.scss */
   .pagination li {
     display: block;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
@@ -337,33 +342,33 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     float: left;
   }
-  /* line 243, sass/_screen.scss */
+  /* line 246, sass/_screen.scss */
   .pagination .pagination_next,
   .pagination .pagination_previous {
     background-color: #8e8264;
   }
-  /* line 246, sass/_screen.scss */
+  /* line 249, sass/_screen.scss */
   .pagination .pagination_next a,
   .pagination .pagination_previous a {
     display: inline-block;
     padding: 0.41071em 10px;
     color: #fff;
   }
-  /* line 253, sass/_screen.scss */
+  /* line 256, sass/_screen.scss */
   .pagination + *:not(#sort-links) {
     clear: both;
   }
-  /* line 257, sass/_screen.scss */
+  /* line 260, sass/_screen.scss */
   .pagination:last-of-type + * {
     clear: both;
   }
 
-  /* line 262, sass/_screen.scss */
+  /* line 265, sass/_screen.scss */
   #sort-links {
     float: right;
     margin-top: -6.25em;
   }
-  /* line 268, sass/_screen.scss */
+  /* line 271, sass/_screen.scss */
   #sort-links span {
     padding: 0.65714em 7px 0.65714em 10px;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
@@ -371,40 +376,40 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
-  /* line 274, sass/_screen.scss */
+  /* line 277, sass/_screen.scss */
   #sort-links ul, #sort-links li, #sort-links a {
     display: inline-block;
   }
-  /* line 278, sass/_screen.scss */
+  /* line 281, sass/_screen.scss */
   #sort-links ul {
     margin-bottom: 0;
     padding-left: 0;
   }
-  /* line 282, sass/_screen.scss */
+  /* line 285, sass/_screen.scss */
   #sort-links li {
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   }
-  /* line 285, sass/_screen.scss */
+  /* line 288, sass/_screen.scss */
   #sort-links a {
     background-color: #8e8264;
     color: #fff;
     padding: 0.41071em 10px;
   }
-  /* line 291, sass/_screen.scss */
+  /* line 294, sass/_screen.scss */
   #sort-links + * {
     clear: both;
   }
 
   /* @end */
   /* @group ----- Header ----- */
-  /* line 299, sass/_screen.scss */
+  /* line 302, sass/_screen.scss */
   header {
     position: relative;
   }
 
-  /* line 303, sass/_screen.scss */
+  /* line 306, sass/_screen.scss */
   #top-nav {
     font-family: "PT Serif", serif;
     text-align: center;
@@ -419,51 +424,51 @@
     margin-bottom: 1.64286em;
     letter-spacing: 1px;
   }
-  /* line 313, sass/_screen.scss */
+  /* line 316, sass/_screen.scss */
   #top-nav ul {
     margin-bottom: 0;
   }
-  /* line 317, sass/_screen.scss */
+  /* line 320, sass/_screen.scss */
   #top-nav li ul {
     display: none;
   }
-  /* line 321, sass/_screen.scss */
+  /* line 324, sass/_screen.scss */
   #top-nav li {
     margin: 0 10px;
   }
 
-  /* line 326, sass/_screen.scss */
+  /* line 329, sass/_screen.scss */
   #site-title {
     margin-bottom: 1.64286em;
     text-align: center;
   }
-  /* line 330, sass/_screen.scss */
+  /* line 333, sass/_screen.scss */
   #site-title * {
     vertical-align: top;
   }
-  /* line 334, sass/_screen.scss */
+  /* line 337, sass/_screen.scss */
   #site-title a {
     display: inline-block;
   }
-  /* line 338, sass/_screen.scss */
+  /* line 341, sass/_screen.scss */
   #site-title img {
     max-width: 100%;
     height: auto;
   }
 
-  /* line 344, sass/_screen.scss */
+  /* line 347, sass/_screen.scss */
   #search-form {
     width: 100%;
     margin-bottom: 1.64286em;
     float: left;
   }
-  /* line 349, sass/_screen.scss */
+  /* line 352, sass/_screen.scss */
   #search-form input[type=text] {
     width: 70%;
     float: left;
     height: 31px;
   }
-  /* line 356, sass/_screen.scss */
+  /* line 359, sass/_screen.scss */
   #search-form input[type=submit], #search-form button[type=submit] {
     width: 30%;
     float: left;
@@ -471,7 +476,7 @@
 
   /* @end */
   /* @group ----- Footer ----- */
-  /* line 366, sass/_screen.scss */
+  /* line 369, sass/_screen.scss */
   footer {
     clear: both;
     border-color: #cfcabc;
@@ -481,16 +486,16 @@
     margin-bottom: 1.64286em;
     letter-spacing: 1px;
   }
-  /* line 373, sass/_screen.scss */
+  /* line 376, sass/_screen.scss */
   footer nav li {
     margin-right: 10px;
   }
 
-  /* line 377, sass/_screen.scss */
+  /* line 380, sass/_screen.scss */
   #footer-text {
     font-size: .8em;
   }
-  /* line 379, sass/_screen.scss */
+  /* line 382, sass/_screen.scss */
   #footer-text p {
     margin-bottom: .5em;
   }
@@ -502,7 +507,7 @@
   } */
   /* @end */
   /* @group ----- Items ----- */
-  /* line 397, sass/_screen.scss */
+  /* line 400, sass/_screen.scss */
   .items .item {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -510,17 +515,13 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 403, sass/_screen.scss */
+  /* line 406, sass/_screen.scss */
   .items .item-meta {
     padding-bottom: 1em;
   }
-  /* line 406, sass/_screen.scss */
+  /* line 409, sass/_screen.scss */
   .items .element-set {
     margin-bottom: 3.28571em;
-  }
-  /* line 410, sass/_screen.scss */
-  .items .element {
-    margin-bottom: 1.64286em;
   }
 
   /* line 415, sass/_screen.scss */
@@ -543,20 +544,34 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
+  /* line 434, sass/_screen.scss */
+  .collections #collection-items .hentry {
+    margin-bottom: 1.64286em;
+    padding-bottom: 1em;
+    border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+  }
+  /* line 439, sass/_screen.scss */
+  .collections #collection-items .hentry:last-of-type {
+    border-bottom: none;
+  }
+  /* line 443, sass/_screen.scss */
+  .collections #collection-items p {
+    display: none;
+  }
 
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 438, sass/_screen.scss */
+  /* line 450, sass/_screen.scss */
   #home #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 442, sass/_screen.scss */
+  /* line 454, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 446, sass/_screen.scss */
+  /* line 458, sass/_screen.scss */
   #home .text {
     width: 100%;
     float: left;
@@ -565,7 +580,7 @@
     font-size: 15px;
     line-height: 25px;
   }
-  /* line 454, sass/_screen.scss */
+  /* line 466, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.2);
     padding: 1em 2em;
@@ -574,94 +589,94 @@
     float: left;
     font-size: 15px;
   }
-  /* line 462, sass/_screen.scss */
+  /* line 474, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 467, sass/_screen.scss */
+  /* line 479, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 472, sass/_screen.scss */
+  /* line 484, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 476, sass/_screen.scss */
+  /* line 488, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 480, sass/_screen.scss */
+  /* line 492, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 485, sass/_screen.scss */
+  /* line 497, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 490, sass/_screen.scss */
+  /* line 502, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 495, sass/_screen.scss */
+  /* line 507, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 502, sass/_screen.scss */
+  /* line 514, sass/_screen.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 5em;
   }
 
-  /* line 507, sass/_screen.scss */
+  /* line 519, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 510, sass/_screen.scss */
+  /* line 522, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 517, sass/_screen.scss */
+  /* line 529, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 522, sass/_screen.scss */
+  /* line 534, sass/_screen.scss */
   .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
-  /* line 527, sass/_screen.scss */
+  /* line 539, sass/_screen.scss */
   .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 531, sass/_screen.scss */
+  /* line 543, sass/_screen.scss */
   .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
-  /* line 535, sass/_screen.scss */
+  /* line 547, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 140px;
@@ -676,87 +691,87 @@
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 550, sass/_screen.scss */
+  /* line 562, sass/_screen.scss */
   .collection-tree #collection-tree ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 556, sass/_screen.scss */
+  /* line 568, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 561, sass/_screen.scss */
+  /* line 573, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 563, sass/_screen.scss */
+  /* line 575, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 569, sass/_screen.scss */
+  /* line 581, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 573, sass/_screen.scss */
+  /* line 585, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 576, sass/_screen.scss */
+  /* line 588, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 580, sass/_screen.scss */
+  /* line 592, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 584, sass/_screen.scss */
+  /* line 596, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 591, sass/_screen.scss */
+  /* line 603, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 593, sass/_screen.scss */
+  /* line 605, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 597, sass/_screen.scss */
+  /* line 609, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
   /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 603, sass/_screen.scss */
+  /* line 615, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 605, sass/_screen.scss */
+  /* line 617, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 608, sass/_screen.scss */
+  /* line 620, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 611, sass/_screen.scss */
+  /* line 623, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 615, sass/_screen.scss */
+  /* line 627, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -766,12 +781,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 624, sass/_screen.scss */
+  /* line 636, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 627, sass/_screen.scss */
+  /* line 639, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;

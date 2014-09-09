@@ -409,6 +409,7 @@ footer {
     .element-set {
         @include trailer(2);
     }
+
 }
 
 .search-entry {
@@ -428,6 +429,18 @@ footer {
         border-color: $gray;
         @include trailing-border(1px, 0, $base-font-size, solid);
         @include trailer();
+    }
+    #collection-items {
+        .hentry {
+            @include trailer();
+            padding-bottom: 1em;
+            border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+
+            &:last-of-type{
+                border-bottom:none;
+            }
+        }
+        p {display:none;}
     }
 }
 
