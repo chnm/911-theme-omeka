@@ -716,6 +716,12 @@
     font-size: 14px;
     line-height: 24px;
   }
+
+  /* line 31, sass/_mobile.scss */
+  #home .collection .collection-description {
+    width: 100%;
+    float: left;
+  }
 }
 @media print {
   /* Welcome to Compass. Use this file to define print styles.
