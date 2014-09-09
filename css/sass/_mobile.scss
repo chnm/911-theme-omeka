@@ -2,10 +2,10 @@
 @import "compass/css3";
 @import "compass/typography";
 @import "susy";
-
+/*
 #wrap {
     background-color: rgba(255,255,255,.5);
-}
+}*/
 .pagination-nav {
 	border-bottom: none;
 	margin-bottom:initial;
@@ -31,4 +31,10 @@
 #home .collection .collection-description {
     width:100%;
     float:left;
+}
+
+#collection-tree {
+    ul li a {
+        width:47%;
+    }
 }
