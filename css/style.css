@@ -537,6 +537,10 @@
   /* @end */
   /* @group ----- Collections ----- */
   /* line 428, sass/_screen.scss */
+  .collections h2 {
+    margin-bottom: 1em;
+  }
+  /* line 431, sass/_screen.scss */
   .collections .collection {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -544,50 +548,60 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 434, sass/_screen.scss */
+  /* line 437, sass/_screen.scss */
   .collections #collection-items .hentry {
     margin-bottom: 1.64286em;
     padding-bottom: 1em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 439, sass/_screen.scss */
+  /* line 442, sass/_screen.scss */
   .collections #collection-items .hentry:last-of-type {
     border-bottom: none;
   }
-  /* line 443, sass/_screen.scss */
+  /* line 446, sass/_screen.scss */
   .collections #collection-items p {
     display: none;
   }
-  /* line 446, sass/_screen.scss */
+  /* line 449, sass/_screen.scss */
   .collections #collection-tree ul {
     padding: 0;
   }
-  /* line 449, sass/_screen.scss */
+  /* line 452, sass/_screen.scss */
   .collections #collection-tree li {
     list-style-type: none;
   }
-  /* line 452, sass/_screen.scss */
+  /* line 455, sass/_screen.scss */
+  .collections #collection-tree li a {
+    padding: 1em;
+  }
+  /* line 459, sass/_screen.scss */
   .collections #collection-tree ul ul {
     padding-left: 2em;
+    margin-bottom: 0;
   }
-  /* line 454, sass/_screen.scss */
+  /* line 462, sass/_screen.scss */
   .collections #collection-tree ul ul li {
-    list-style-type: disc;
+    list-style-type: square;
+    padding: .5em 0;
+  }
+  /* line 467, sass/_screen.scss */
+  .collections #collection-tree ul ul ul * {
+    margin: 0;
   }
 
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 464, sass/_screen.scss */
+  /* line 477, sass/_screen.scss */
   #home #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 468, sass/_screen.scss */
+  /* line 481, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 472, sass/_screen.scss */
+  /* line 485, sass/_screen.scss */
   #home .text {
     width: 100%;
     float: left;
@@ -596,7 +610,7 @@
     font-size: 15px;
     line-height: 25px;
   }
-  /* line 480, sass/_screen.scss */
+  /* line 493, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.2);
     padding: 1em 2em;
@@ -605,94 +619,94 @@
     float: left;
     font-size: 15px;
   }
-  /* line 488, sass/_screen.scss */
+  /* line 501, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 493, sass/_screen.scss */
+  /* line 506, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 498, sass/_screen.scss */
+  /* line 511, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 502, sass/_screen.scss */
+  /* line 515, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 506, sass/_screen.scss */
+  /* line 519, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 511, sass/_screen.scss */
+  /* line 524, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 516, sass/_screen.scss */
+  /* line 529, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 521, sass/_screen.scss */
+  /* line 534, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 528, sass/_screen.scss */
+  /* line 541, sass/_screen.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 5em;
   }
 
-  /* line 533, sass/_screen.scss */
+  /* line 546, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 536, sass/_screen.scss */
+  /* line 549, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 543, sass/_screen.scss */
+  /* line 556, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 548, sass/_screen.scss */
+  /* line 561, sass/_screen.scss */
   .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
-  /* line 553, sass/_screen.scss */
+  /* line 566, sass/_screen.scss */
   .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 557, sass/_screen.scss */
+  /* line 570, sass/_screen.scss */
   .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
-  /* line 561, sass/_screen.scss */
+  /* line 574, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 140px;
@@ -707,87 +721,87 @@
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 576, sass/_screen.scss */
+  /* line 589, sass/_screen.scss */
   .collection-tree #collection-tree ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 582, sass/_screen.scss */
+  /* line 595, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 587, sass/_screen.scss */
+  /* line 600, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 589, sass/_screen.scss */
+  /* line 602, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 595, sass/_screen.scss */
+  /* line 608, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 599, sass/_screen.scss */
+  /* line 612, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 602, sass/_screen.scss */
+  /* line 615, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 606, sass/_screen.scss */
+  /* line 619, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 610, sass/_screen.scss */
+  /* line 623, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 617, sass/_screen.scss */
+  /* line 630, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 619, sass/_screen.scss */
+  /* line 632, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 623, sass/_screen.scss */
+  /* line 636, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
   /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 629, sass/_screen.scss */
+  /* line 642, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 631, sass/_screen.scss */
+  /* line 644, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 634, sass/_screen.scss */
+  /* line 647, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 637, sass/_screen.scss */
+  /* line 650, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 641, sass/_screen.scss */
+  /* line 654, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -797,12 +811,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 650, sass/_screen.scss */
+  /* line 663, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 653, sass/_screen.scss */
+  /* line 666, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;
