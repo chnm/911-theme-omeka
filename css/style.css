@@ -137,7 +137,7 @@
   /* line 67, sass/_screen.scss */
   h2 {
     font-size: 24.5px;
-    line-height: 46px;
+    line-height: 28.75px;
     margin-bottom: 1.09524em;
     font-weight: bold;
     font-family: "PT Serif", serif;
@@ -558,20 +558,36 @@
   .collections #collection-items p {
     display: none;
   }
+  /* line 446, sass/_screen.scss */
+  .collections #collection-tree ul {
+    padding: 0;
+  }
+  /* line 449, sass/_screen.scss */
+  .collections #collection-tree li {
+    list-style-type: none;
+  }
+  /* line 452, sass/_screen.scss */
+  .collections #collection-tree ul ul {
+    padding-left: 2em;
+  }
+  /* line 454, sass/_screen.scss */
+  .collections #collection-tree ul ul li {
+    list-style-type: disc;
+  }
 
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 450, sass/_screen.scss */
+  /* line 464, sass/_screen.scss */
   #home #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 454, sass/_screen.scss */
+  /* line 468, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 458, sass/_screen.scss */
+  /* line 472, sass/_screen.scss */
   #home .text {
     width: 100%;
     float: left;
@@ -580,7 +596,7 @@
     font-size: 15px;
     line-height: 25px;
   }
-  /* line 466, sass/_screen.scss */
+  /* line 480, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.2);
     padding: 1em 2em;
@@ -589,94 +605,94 @@
     float: left;
     font-size: 15px;
   }
-  /* line 474, sass/_screen.scss */
+  /* line 488, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 479, sass/_screen.scss */
+  /* line 493, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 484, sass/_screen.scss */
+  /* line 498, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 488, sass/_screen.scss */
+  /* line 502, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 492, sass/_screen.scss */
+  /* line 506, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 497, sass/_screen.scss */
+  /* line 511, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 502, sass/_screen.scss */
+  /* line 516, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 507, sass/_screen.scss */
+  /* line 521, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 514, sass/_screen.scss */
+  /* line 528, sass/_screen.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 5em;
   }
 
-  /* line 519, sass/_screen.scss */
+  /* line 533, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0;
     padding-left: 1em;
   }
-  /* line 522, sass/_screen.scss */
+  /* line 536, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: none;
     padding-bottom: 5px;
   }
 
   /* @group ------ Carousel ----- */
-  /* line 529, sass/_screen.scss */
+  /* line 543, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 534, sass/_screen.scss */
+  /* line 548, sass/_screen.scss */
   .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
-  /* line 539, sass/_screen.scss */
+  /* line 553, sass/_screen.scss */
   .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 543, sass/_screen.scss */
+  /* line 557, sass/_screen.scss */
   .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
-  /* line 547, sass/_screen.scss */
+  /* line 561, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 140px;
@@ -691,87 +707,87 @@
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 562, sass/_screen.scss */
+  /* line 576, sass/_screen.scss */
   .collection-tree #collection-tree ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 568, sass/_screen.scss */
+  /* line 582, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 573, sass/_screen.scss */
+  /* line 587, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 575, sass/_screen.scss */
+  /* line 589, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 581, sass/_screen.scss */
+  /* line 595, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 585, sass/_screen.scss */
+  /* line 599, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 588, sass/_screen.scss */
+  /* line 602, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 592, sass/_screen.scss */
+  /* line 606, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 596, sass/_screen.scss */
+  /* line 610, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 603, sass/_screen.scss */
+  /* line 617, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 605, sass/_screen.scss */
+  /* line 619, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 609, sass/_screen.scss */
+  /* line 623, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
   /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 615, sass/_screen.scss */
+  /* line 629, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 617, sass/_screen.scss */
+  /* line 631, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 620, sass/_screen.scss */
+  /* line 634, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 623, sass/_screen.scss */
+  /* line 637, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 627, sass/_screen.scss */
+  /* line 641, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -781,12 +797,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 636, sass/_screen.scss */
+  /* line 650, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 639, sass/_screen.scss */
+  /* line 653, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;

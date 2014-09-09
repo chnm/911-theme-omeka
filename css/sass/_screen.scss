@@ -66,7 +66,7 @@ h1 {
 
 h2 {
     font-size: 1.75 * $base-font-size;
-    line-height: 2 * $base-line-height;
+    line-height: 1.25 * $base-line-height;
     @include trailer(1, 1.5 * $base-font-size);
     font-weight: bold;
     font-family: "PT Serif", serif;
@@ -441,6 +441,20 @@ footer {
             }
         }
         p {display:none;}
+    }
+    #collection-tree {
+        ul {
+            padding:0;
+        }
+        li {
+            list-style-type: none;
+        }
+        ul ul {
+            padding-left:2em;
+            li {
+                list-style-type: disc;
+            }
+        }
     }
 }
 
