@@ -154,14 +154,14 @@ button,
     @include container;
     @include padding-leader(2);
     @include padding-trailer(2);
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.7);
 //    @include box-shadow(0 0 30px $gray);
 }
 
 #content {
     position: relative;
-    padding:0 1em;
 }
+
 
 /* @end */
 
@@ -515,23 +515,47 @@ footer {
 /* @group ------ Collection-Tree ----- */
 
 #collection-tree {
+    display:block;
+    float:left;
+    margin-bottom:1em;
     ul{
         margin:0 0 1em 0;
         padding:0;
+         li {
+            list-style-type: none;
+            width:23%;
+            height:120px;
+            margin-bottom:0;
+            display:block;
+            padding:2em 1.5em;
+            float:left;
+            margin:0 10px 10px 0;
+            background-color:rgba(142,130,100,.2); 
+            box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+            -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+            font-weight: bold;
+            letter-spacing: 1px;
+            /*&:hover{
+                ul {
+                    display:block;
+                    width:100%;
+                    float:left;
+                    background-color:#fff;
+                    li {
+                        display:block;
+                        width:100%;
+                        border:none;
+                        height:auto;
+                        padding:.5em;
+
+                    }
+                }
+            }*/
+        }
     }
-    li {
-        list-style-type: none;
-        @extend h4;
-        margin-bottom:0;
-    }
+   
     ul ul {
-        padding-left:2em;
-        
-    }
-    ul ul li {
-        list-style-type: disc;
-    }
-    ul ul ul {
         display:none;
     }
 }

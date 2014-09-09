@@ -5,7 +5,7 @@
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
   /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, #collection-tree li, h5, h6, p, blockquote, pre,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
@@ -152,7 +152,7 @@
   }
 
   /* line 82, sass/_screen.scss */
-  h4, #collection-tree li {
+  h4 {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
     font-weight: bold;
@@ -242,7 +242,7 @@
     margin-right: auto;
     padding-top: 3.28571em;
     padding-bottom: 3.28571em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
   }
   /* line 38, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   #wrap:after {
@@ -254,7 +254,6 @@
   /* line 161, sass/_screen.scss */
   #content {
     position: relative;
-    padding: 0 1em;
   }
 
   /* @end */
@@ -639,41 +638,67 @@
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 518, sass/_screen.scss */
+  /* line 517, sass/_screen.scss */
+  #collection-tree {
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+  }
+  /* line 521, sass/_screen.scss */
   #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 522, sass/_screen.scss */
-  #collection-tree li {
+  /* line 524, sass/_screen.scss */
+  #collection-tree ul li {
     list-style-type: none;
+    width: 23%;
+    height: 120px;
     margin-bottom: 0;
+    display: block;
+    padding: 2em 1.5em;
+    float: left;
+    margin: 0 10px 10px 0;
+    background-color: rgba(142, 130, 100, 0.2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    letter-spacing: 1px;
+            /*&:hover{
+                ul {
+                    display:block;
+                    width:100%;
+                    float:left;
+                    background-color:#fff;
+                    li {
+                        display:block;
+                        width:100%;
+                        border:none;
+                        height:auto;
+                        padding:.5em;
+
+                    }
+                }
+            }*/
   }
-  /* line 527, sass/_screen.scss */
+  /* line 558, sass/_screen.scss */
   #collection-tree ul ul {
-    padding-left: 2em;
-  }
-  /* line 531, sass/_screen.scss */
-  #collection-tree ul ul li {
-    list-style-type: disc;
-  }
-  /* line 534, sass/_screen.scss */
-  #collection-tree ul ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 540, sass/_screen.scss */
+  /* line 564, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 545, sass/_screen.scss */
+  /* line 569, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 1em;
   }
-  /* line 547, sass/_screen.scss */
+  /* line 571, sass/_screen.scss */
   #contribution-type-form two.columns.alpha {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
