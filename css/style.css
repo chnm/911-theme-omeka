@@ -3,9 +3,9 @@
    * In this file you should write your main styles. (or centralize your imports)
    * Import this file using the following HTML or equivalent:
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-  /* line 17, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 17, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, #collection-tree li, h5, h6, p, blockquote, pre,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
   small, strike, strong, sub, sup, tt, var,
@@ -25,45 +25,45 @@
     vertical-align: baseline;
   }
 
-  /* line 22, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 22, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html {
     line-height: 1;
   }
 
-  /* line 24, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 24, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   ol, ul {
     list-style: none;
   }
 
-  /* line 26, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 26, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   table {
     border-collapse: collapse;
     border-spacing: 0;
   }
 
-  /* line 28, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 28, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   caption, th, td {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
   }
 
-  /* line 30, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 30, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q, blockquote {
     quotes: none;
   }
-  /* line 103, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none;
   }
 
-  /* line 32, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 32, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   a img {
     border: none;
   }
 
-  /* line 116, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 116, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
   }
@@ -152,7 +152,7 @@
   }
 
   /* line 82, sass/_screen.scss */
-  h4, #collection-tree li {
+  h4 {
     font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
     font-weight: bold;
@@ -242,16 +242,16 @@
     margin-right: auto;
     padding-top: 3.28571em;
     padding-bottom: 3.28571em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
   }
-  /* line 38, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   #wrap:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* line 161, sass/_screen.scss */
+  /* line 160, sass/_screen.scss */
   #content {
     position: relative;
   }
@@ -643,62 +643,159 @@
   }
 
   /* @group ------ Collection-Tree ----- */
-  /* line 523, sass/_screen.scss */
-  #collection-tree ul {
+  /* line 522, sass/_screen.scss */
+  .collection-tree #collection-tree {
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  /* line 527, sass/_screen.scss */
+  .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 527, sass/_screen.scss */
-  #collection-tree li {
+  /* line 531, sass/_screen.scss */
+  .collection-tree #collection-tree ul li {
     list-style-type: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  /* line 535, sass/_screen.scss */
+  .collection-tree #collection-tree ul li a {
+    width: 23%;
+    min-width: 140px;
+    height: 150px;
     margin-bottom: 0;
+    display: block;
+    padding: 2em 1.5em;
+    float: left;
+    background-color: rgba(142, 130, 100, 0.2);
+    margin: 0 10px 10px 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 532, sass/_screen.scss */
-  #collection-tree ul ul {
-    padding-left: 2em;
-  }
-  /* line 536, sass/_screen.scss */
-  #collection-tree ul ul li {
-    list-style-type: disc;
-  }
-  /* line 539, sass/_screen.scss */
-  #collection-tree ul ul ul {
+  /* line 550, sass/_screen.scss */
+  .collection-tree #collection-tree ul ul {
     display: none;
   }
 
   /* @group ------ Contribution Plugin ----- */
-  /* line 545, sass/_screen.scss */
+  /* line 556, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 550, sass/_screen.scss */
+  /* line 561, sass/_screen.scss */
   #contribution-type-form {
+    margin-top: 2em;
+  }
+  /* line 563, sass/_screen.scss */
+  #contribution-type-form .alpha {
+    font-family: "PT Serif", serif;
+    margin-bottom: .5em;
+    font-weight: bold;
+    font-size: 16.8px;
+  }
+  /* line 569, sass/_screen.scss */
+  #contribution-type-form .explanation {
+    margin-bottom: 1em;
+  }
+  /* line 573, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile fieldset {
+    padding: 0;
+  }
+  /* line 576, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .field {
+    width: 100%;
+    float: left;
+  }
+  /* line 580, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 20%;
+    float: left;
+  }
+  /* line 584, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+  }
+
+  /* line 591, sass/_screen.scss */
+  #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 552, sass/_screen.scss */
-  #contribution-type-form two.columns.alpha {
-    font-family: "PT Serif", serif;
-    margin-bottom: 1.09524em;
+  /* line 593, sass/_screen.scss */
+  #contribution-confirm-submit p {
+    margin: 1em 0;
     font-weight: bold;
+  }
+  /* line 597, sass/_screen.scss */
+  #contribution-confirm-submit input[type=submit] {
+    margin: 1em 0;
+  }
+
+  /* @group ------ Contribution Plugin - User Profiles ----- */
+  /* line 603, sass/_screen.scss */
+  .userprofiles.required-profile {
+    margin-bottom: 1.5em;
+  }
+  /* line 605, sass/_screen.scss */
+  .userprofiles.required-profile p {
+    margin-bottom: 1em;
+  }
+  /* line 608, sass/_screen.scss */
+  .userprofiles.required-profile ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 611, sass/_screen.scss */
+  .userprofiles.required-profile ul li {
+    list-style-type: none;
+  }
+  /* line 615, sass/_screen.scss */
+  .userprofiles.required-profile ul a {
+    display: inline-block;
+    background-color: rgba(142, 130, 100, 0.2);
+    padding: .5em;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* line 624, sass/_screen.scss */
+  #primary {
+    width: 100%;
+    float: left;
+  }
+  /* line 627, sass/_screen.scss */
+  #primary #edit-form {
+    width: 100%;
+    float: left;
   }
 
   /* @end */
 }
 @media screen and (max-width: 500px) {
-  /* line 6, sass/_mobile.scss */
+  /*
   #wrap {
-    background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255,255,255,.5);
+  }*/
+  /* line 10, sass/_mobile.scss */
+  textarea {
+    max-width: 350px;
   }
 
-  /* line 9, sass/_mobile.scss */
+  /* line 13, sass/_mobile.scss */
   .pagination-nav {
     border-bottom: none;
     margin-bottom: initial;
   }
 
-  /* line 13, sass/_mobile.scss */
+  /* line 17, sass/_mobile.scss */
   #sort-links {
     width: 100%;
     float: left;
@@ -708,17 +805,39 @@
     padding-bottom: 1.5em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
-  /* line 21, sass/_mobile.scss */
+  /* line 25, sass/_mobile.scss */
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.575em 7px 0.575em 10px;
   }
 
-  /* line 26, sass/_mobile.scss */
+  /* line 30, sass/_mobile.scss */
   #home .text, #home .secondary {
     padding: 1em .5em;
     font-size: 14px;
     line-height: 24px;
+  }
+
+  /* line 35, sass/_mobile.scss */
+  #home .collection .collection-description {
+    width: 100%;
+    float: left;
+  }
+
+  /* line 41, sass/_mobile.scss */
+  #collection-tree ul li a {
+    width: 47%;
+  }
+
+  /* line 46, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 100%;
+    float: left;
+  }
+  /* line 50, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    float: left;
+    margin: 10px 0 0;
   }
 }
 @media print {

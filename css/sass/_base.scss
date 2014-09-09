@@ -5,13 +5,24 @@ $column-width:    4.5em;
 $gutter-width:    1em;
 $grid-padding:    2em;
 
+
 //Colors
 
 $gold:            #8E8264;
 $blue:            #213881;
 $gray:            rgba(0,0,0,.2);
 
+
 // Typography
 
 $base-font-size: 14px;
 $base-line-height: 23px;
+
+
+// Mixins
+
+@mixin shadow {
+     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}

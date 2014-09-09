@@ -157,13 +157,13 @@ button,
     @include container;
     @include padding-leader(2);
     @include padding-trailer(2);
-    background-color: rgba(255,255,255,.5);
-//    @include box-shadow(0 0 30px $gray);
+    background-color: rgba(255,255,255,.7);
 }
 
 #content {
     position: relative;
 }
+
 
 /* @end */
 
@@ -518,24 +518,35 @@ footer {
 }
 /* @group ------ Collection-Tree ----- */
 
-#collection-tree {
+.collection-tree #collection-tree {
+    display:block;
+    float:left;
+    margin-bottom:1em;
+    width:100%;
     ul{
         margin:0 0 1em 0;
         padding:0;
+
+         li {
+            list-style-type: none;           
+            font-weight: bold;
+            letter-spacing: 1px;
+            a {
+                width:23%;
+                min-width:140px;
+                height:150px;
+                margin-bottom:0;
+                display:block;
+                padding:2em 1.5em;
+                float:left;
+                background-color:rgba(142,130,100,.2); 
+                margin:0 10px 10px 0;
+                @include shadow;
+            }
+        }
     }
-    li {
-        list-style-type: none;
-        @extend h4;
-        margin-bottom:0;
-    }
+   
     ul ul {
-        padding-left:2em;
-        
-    }
-    ul ul li {
-        list-style-type: disc;
-    }
-    ul ul ul {
         display:none;
     }
 }
@@ -547,11 +558,77 @@ footer {
 }
 
 #contribution-type-form {
-    margin-top:1em;
-    two.columns.alpha {
+    margin-top:2em;
+    .alpha {
         font-family: "PT Serif", serif;
-        @include trailer(1, 1.5 * $base-font-size);
+        margin-bottom:.5em;
         font-weight: bold;
+        font-size: $base-font-size*1.2;
+    }
+    .explanation {
+        margin-bottom:1em;
+    }
+    .contribution-userprofile {
+        fieldset {
+            padding:0;
+        }
+        .field {
+            width: 100%;
+            float:left;
+        }
+        .two.columns.alpha {
+            width:20%;
+            float:left;
+        }
+        .five.columns.omega {
+            width:75%;
+            float:left;
+            margin-left:20px;
+        }
     }
 }
+#contribution-confirm-submit {
+    margin-top:1em;
+    p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+    input[type=submit] {
+        margin:1em 0;
+    }
+}
+
+/* @group ------ Contribution Plugin - User Profiles ----- */
+.userprofiles.required-profile {
+    margin-bottom:1.5em;
+    p {
+        margin-bottom: 1em;
+    }
+    ul {
+        margin:0;
+        padding:0;
+        li {
+            list-style-type: none;
+
+        }
+        a {
+            display:inline-block;
+            background-color:rgba(142,130,100,.2);
+            padding:.5em;
+            @include shadow;
+
+        }
+    }
+}
+#primary {
+    width:100%;
+    float:left;
+    #edit-form {
+        width:100%;
+        float:left;
+
+    }
+
+}
+
 /* @end */
