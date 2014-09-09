@@ -703,40 +703,60 @@
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-
   /* line 573, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile fieldset {
+    padding: 0;
+  }
+  /* line 576, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .field {
+    width: 100%;
+    float: left;
+  }
+  /* line 580, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 20%;
+    float: left;
+  }
+  /* line 584, sass/_screen.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    width: 75%;
+    float: left;
+    margin-left: 20px;
+  }
+
+  /* line 591, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 575, sass/_screen.scss */
+  /* line 593, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 579, sass/_screen.scss */
+  /* line 597, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
   /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 584, sass/_screen.scss */
+  /* line 603, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 586, sass/_screen.scss */
+  /* line 605, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 589, sass/_screen.scss */
+  /* line 608, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 592, sass/_screen.scss */
+  /* line 611, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 596, sass/_screen.scss */
+  /* line 615, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -746,12 +766,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 605, sass/_screen.scss */
+  /* line 624, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 608, sass/_screen.scss */
+  /* line 627, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;

@@ -569,6 +569,24 @@ footer {
     .explanation {
         margin-bottom:1em;
     }
+    .contribution-userprofile {
+        fieldset {
+            padding:0;
+        }
+        .field {
+            width: 100%;
+            float:left;
+        }
+        .two.columns.alpha {
+            width:20%;
+            float:left;
+        }
+        .five.columns.omega {
+            width:75%;
+            float:left;
+            margin-left:20px;
+        }
+    }
 }
 #contribution-confirm-submit {
     margin-top:1em;
@@ -580,6 +598,7 @@ footer {
         margin:1em 0;
     }
 }
+
 /* @group ------ Contribution Plugin - User Profiles ----- */
 .userprofiles.required-profile {
     margin-bottom:1.5em;
