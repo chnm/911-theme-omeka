@@ -823,6 +823,18 @@
   #collection-tree ul li a {
     width: 47%;
   }
+
+  /* line 42, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 100%;
+    float: left;
+  }
+  /* line 46, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    width: 100%;
+    float: left;
+    margin: 10px 0 0;
+  }
 }
 @media print {
   /* Welcome to Compass. Use this file to define print styles.
