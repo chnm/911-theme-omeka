@@ -435,7 +435,7 @@ footer {
 /* @group ------ Simple Pages ------ */
 
 /* Removing breadcrumbs and h1 from pages as index.html */
-#home #simple-pages-breadcrumbs {
+#simple-pages-breadcrumbs {
     display:none;
 }
 
@@ -556,6 +556,9 @@ footer {
 .contribution #primary {
     display: block;
     margin-bottom: 1em;
+}
+.contribution #recaptcha_table {
+    @include trailer();
 }
 
 #contribution-type-form {

@@ -547,7 +547,7 @@
   /* @group ------ Simple Pages ------ */
   /* Removing breadcrumbs and h1 from pages as index.html */
   /* line 438, sass/_screen.scss */
-  #home #simple-pages-breadcrumbs {
+  #simple-pages-breadcrumbs {
     display: none;
   }
 
@@ -688,75 +688,80 @@
     margin-bottom: 1em;
   }
 
-  /* line 561, sass/_screen.scss */
+  /* line 560, sass/_screen.scss */
+  .contribution #recaptcha_table {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 564, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 563, sass/_screen.scss */
+  /* line 566, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 569, sass/_screen.scss */
+  /* line 572, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 573, sass/_screen.scss */
+  /* line 576, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 576, sass/_screen.scss */
+  /* line 579, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 580, sass/_screen.scss */
+  /* line 583, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 584, sass/_screen.scss */
+  /* line 587, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 591, sass/_screen.scss */
+  /* line 594, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 593, sass/_screen.scss */
+  /* line 596, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 597, sass/_screen.scss */
+  /* line 600, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
   /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 603, sass/_screen.scss */
+  /* line 606, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 605, sass/_screen.scss */
+  /* line 608, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 608, sass/_screen.scss */
+  /* line 611, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 611, sass/_screen.scss */
+  /* line 614, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 615, sass/_screen.scss */
+  /* line 618, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -766,12 +771,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 624, sass/_screen.scss */
+  /* line 627, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 627, sass/_screen.scss */
+  /* line 630, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;
