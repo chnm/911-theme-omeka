@@ -148,7 +148,11 @@ button,
 .element {
     @include trailer(1);
 }   
-
+#flash {
+    li {
+        list-style-type: none;
+    }
+}
 /* @end */
 
 /* @group ----- Structure ----- */
@@ -162,6 +166,7 @@ button,
 
 #content {
     position: relative;
+    @include trailer ();
 }
 
 
