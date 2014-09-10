@@ -451,17 +451,13 @@ footer {
         }
         li {
             list-style-type: none;
-
-            a {
-                padding:1em;
-            }
         }
         ul ul {
             padding-left:2em;
             margin-bottom:0;
             li {
                 list-style-type: square;
-                padding: .5em 0;
+                padding:.5em 1em;
 
             }
             ul * {
