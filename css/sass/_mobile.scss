@@ -41,11 +41,11 @@ textarea {
     float:left;
 }
 
-#collection-tree {
+/*#collection-tree {
     ul li a {
         width:47%;
     }
-}
+}*/
 #contribution-type-form .contribution-userprofile {
     .two.columns.alpha {
         width:100%;
@@ -66,6 +66,7 @@ textarea {
         width:100%;
         float:left;
         background-color: #fff;
+        @include trailer();
     }
     p {
         width:100%;
