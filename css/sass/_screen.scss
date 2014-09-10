@@ -596,8 +596,8 @@ footer {
     display: block;
     margin-bottom: 1em;
 }
-.contribution #recaptcha_table {
-    @include trailer();
+.contribution #recaptcha_widget_div {
+    margin-bottom:1em;
 }
 
 #contribution-type-form {

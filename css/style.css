@@ -734,8 +734,8 @@
   }
 
   /* line 599, sass/_screen.scss */
-  .contribution #recaptcha_table {
-    margin-bottom: 1.64286em;
+  .contribution #recaptcha_widget_div {
+    margin-bottom: 1em;
   }
 
   /* line 603, sass/_screen.scss */
