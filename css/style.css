@@ -837,27 +837,30 @@
   /* @end */
 }
 @media screen and (max-width: 500px) {
-  /*
+  /* line 6, sass/_mobile.scss */
   #wrap {
-      background-color: rgba(255,255,255,.5);
-  }*/
-  /* line 10, sass/_mobile.scss */
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* line 12, sass/_mobile.scss */
   textarea {
     max-width: 300px;
   }
 
-  /* line 14, sass/_mobile.scss */
+  /* line 16, sass/_mobile.scss */
   #top-nav {
     text-align: left;
   }
 
-  /* line 17, sass/_mobile.scss */
+  /* line 19, sass/_mobile.scss */
   .pagination-nav {
     border-bottom: none;
     margin-bottom: initial;
   }
 
-  /* line 21, sass/_mobile.scss */
+  /* line 23, sass/_mobile.scss */
   #sort-links {
     width: 100%;
     float: left;
@@ -867,20 +870,20 @@
     padding-bottom: 1.5em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
-  /* line 29, sass/_mobile.scss */
+  /* line 31, sass/_mobile.scss */
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.575em 7px 0.575em 10px;
   }
 
-  /* line 34, sass/_mobile.scss */
+  /* line 36, sass/_mobile.scss */
   #home .text, #home .secondary {
     padding: 1em .5em;
     font-size: 14px;
     line-height: 24px;
   }
 
-  /* line 39, sass/_mobile.scss */
+  /* line 41, sass/_mobile.scss */
   #home .collection .collection-description {
     width: 100%;
     float: left;
@@ -891,40 +894,40 @@
           width:47%;
       }
   }*/
-  /* line 49, sass/_mobile.scss */
+  /* line 51, sass/_mobile.scss */
   #contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
     max-width: 100% !important;
   }
 
-  /* line 53, sass/_mobile.scss */
+  /* line 55, sass/_mobile.scss */
   #recaptcha_area, #recaptcha_table {
     max-width: 300px !important;
   }
 
-  /* line 57, sass/_mobile.scss */
+  /* line 59, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 100%;
     float: left;
   }
-  /* line 61, sass/_mobile.scss */
+  /* line 63, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     float: left;
     margin: 10px 0 0;
   }
 
-  /* line 68, sass/_mobile.scss */
+  /* line 70, sass/_mobile.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 0;
   }
 
-  /* line 73, sass/_mobile.scss */
+  /* line 75, sass/_mobile.scss */
   .gallery img {
     width: 100%;
     float: left;
     background-color: #fff;
     margin-bottom: 1.64286em;
   }
-  /* line 79, sass/_mobile.scss */
+  /* line 81, sass/_mobile.scss */
   .gallery p {
     width: 100%;
     float: left;
