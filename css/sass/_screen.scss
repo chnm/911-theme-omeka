@@ -418,7 +418,10 @@ footer {
 }
 
 .search-entry {
-    @include trailer();
+    margin-bottom:1em;
+    .advanced-search-element {
+        max-width: 300px;
+    }
 }
 
 #advanced-search-form {
