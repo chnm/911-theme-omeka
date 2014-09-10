@@ -8,7 +8,7 @@
 }*/
 
 textarea {
-    max-width: 350px;
+    max-width: 300px;
 }
 
 #top-nav {
@@ -46,6 +46,13 @@ textarea {
         width:47%;
     }
 }*/
+#contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
+    max-width:100%!important;
+}
+
+#recaptcha_area, #recaptcha_table {
+    max-width: 300px!important;
+}
 #contribution-type-form .contribution-userprofile {
     .two.columns.alpha {
         width:100%;
@@ -55,6 +62,7 @@ textarea {
         float:left;
         margin:10px 0 0;
     }
+
 }
 #about, #faqs, #staff, #partners {
     #content {

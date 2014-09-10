@@ -843,7 +843,7 @@
   }*/
   /* line 10, sass/_mobile.scss */
   textarea {
-    max-width: 350px;
+    max-width: 300px;
   }
 
   /* line 14, sass/_mobile.scss */
@@ -891,30 +891,40 @@
           width:47%;
       }
   }*/
-  /* line 50, sass/_mobile.scss */
+  /* line 49, sass/_mobile.scss */
+  #contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
+    max-width: 100% !important;
+  }
+
+  /* line 53, sass/_mobile.scss */
+  #recaptcha_area, #recaptcha_table {
+    max-width: 300px !important;
+  }
+
+  /* line 57, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 100%;
     float: left;
   }
-  /* line 54, sass/_mobile.scss */
+  /* line 61, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     float: left;
     margin: 10px 0 0;
   }
 
-  /* line 60, sass/_mobile.scss */
+  /* line 68, sass/_mobile.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 0;
   }
 
-  /* line 65, sass/_mobile.scss */
+  /* line 73, sass/_mobile.scss */
   .gallery img {
     width: 100%;
     float: left;
     background-color: #fff;
     margin-bottom: 1.64286em;
   }
-  /* line 71, sass/_mobile.scss */
+  /* line 79, sass/_mobile.scss */
   .gallery p {
     width: 100%;
     float: left;
