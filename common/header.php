@@ -14,7 +14,7 @@
     <title><?php echo implode(' &middot; ', $titleParts); ?></title>
 
     <?php echo auto_discovery_link_tags(); ?>
-
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Plugin Stuff -->
     <?php fire_plugin_hook('public_head', array('view'=>$this)); ?>
 
