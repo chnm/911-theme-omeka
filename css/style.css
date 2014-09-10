@@ -715,7 +715,7 @@
   /* line 578, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
-    min-width: 150px;
+    min-width: 160px;
     height: 150px;
     margin-bottom: 0;
     display: block;
