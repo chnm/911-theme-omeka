@@ -10,6 +10,10 @@
 textarea {
     max-width: 350px;
 }
+
+#top-nav {
+    text-align: left;
+}
 .pagination-nav {
 	border-bottom: none;
 	margin-bottom:initial;
@@ -55,5 +59,17 @@ textarea {
 #about, #faqs, #staff, #partners {
     #content {
         padding-right:0;
+    }
+}
+.gallery {
+    img {
+        width:100%;
+        float:left;
+        background-color: #fff;
+    }
+    p {
+        width:100%;
+        float:left;
+        padding-left:0px;
     }
 }

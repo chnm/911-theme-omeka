@@ -845,13 +845,18 @@
     max-width: 350px;
   }
 
-  /* line 13, sass/_mobile.scss */
+  /* line 14, sass/_mobile.scss */
+  #top-nav {
+    text-align: left;
+  }
+
+  /* line 17, sass/_mobile.scss */
   .pagination-nav {
     border-bottom: none;
     margin-bottom: initial;
   }
 
-  /* line 17, sass/_mobile.scss */
+  /* line 21, sass/_mobile.scss */
   #sort-links {
     width: 100%;
     float: left;
@@ -861,44 +866,57 @@
     padding-bottom: 1.5em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
-  /* line 25, sass/_mobile.scss */
+  /* line 29, sass/_mobile.scss */
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.575em 7px 0.575em 10px;
   }
 
-  /* line 30, sass/_mobile.scss */
+  /* line 34, sass/_mobile.scss */
   #home .text, #home .secondary {
     padding: 1em .5em;
     font-size: 14px;
     line-height: 24px;
   }
 
-  /* line 35, sass/_mobile.scss */
+  /* line 39, sass/_mobile.scss */
   #home .collection .collection-description {
     width: 100%;
     float: left;
   }
 
-  /* line 41, sass/_mobile.scss */
+  /* line 45, sass/_mobile.scss */
   #collection-tree ul li a {
     width: 47%;
   }
 
-  /* line 46, sass/_mobile.scss */
+  /* line 50, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 100%;
     float: left;
   }
-  /* line 50, sass/_mobile.scss */
+  /* line 54, sass/_mobile.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     float: left;
     margin: 10px 0 0;
   }
 
-  /* line 56, sass/_mobile.scss */
+  /* line 60, sass/_mobile.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 0;
+  }
+
+  /* line 65, sass/_mobile.scss */
+  .gallery img {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+  }
+  /* line 70, sass/_mobile.scss */
+  .gallery p {
+    width: 100%;
+    float: left;
+    padding-left: 0px;
   }
 }
 @media print {
