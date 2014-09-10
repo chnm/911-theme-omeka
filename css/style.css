@@ -895,6 +895,11 @@
     float: left;
     margin: 10px 0 0;
   }
+
+  /* line 56, sass/_mobile.scss */
+  #about #content, #faqs #content, #staff #content, #partners #content {
+    padding-right: 0;
+  }
 }
 @media print {
   /* Welcome to Compass. Use this file to define print styles.
