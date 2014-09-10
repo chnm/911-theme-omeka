@@ -3,6 +3,10 @@
 @import "compass/typography";
 @import "susy";
 
+body {
+    background: url('../images/bg_small.jpg') no-repeat top center fixed;
+    background-size: cover;
+}
 #wrap {
     padding-left: 1em;
     padding-right: 1em;
