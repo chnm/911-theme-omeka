@@ -66,7 +66,7 @@ h1 {
 
 h2 {
     font-size: 1.75 * $base-font-size;
-    line-height: 2 * $base-line-height;
+    line-height: 1.25 * $base-line-height;
     @include trailer(1, 1.5 * $base-font-size);
     font-weight: bold;
     font-family: "PT Serif", serif;
@@ -145,6 +145,9 @@ button,
     vertical-align: top;
     @include trailer();
 }
+.element {
+    @include trailer(1);
+}   
 
 /* @end */
 
@@ -406,10 +409,7 @@ footer {
     .element-set {
         @include trailer(2);
     }
-    
-    .element {
-        @include trailer();
-    }
+
 }
 
 .search-entry {
@@ -425,10 +425,49 @@ footer {
 /* @group ----- Collections ----- */
 
 .collections {
+    h2 {
+        margin-bottom:1em;
+    }
     .collection {
         border-color: $gray;
         @include trailing-border(1px, 0, $base-font-size, solid);
         @include trailer();
+    }
+    #collection-items {
+        .hentry {
+            @include trailer();
+            padding-bottom: 1em;
+            border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
+
+            &:last-of-type{
+                border-bottom:none;
+            }
+        }
+        p {display:none;}
+    }
+    #collection-tree {
+        ul {
+            padding:0;
+        }
+        li {
+            list-style-type: none;
+
+            a {
+                padding:1em;
+            }
+        }
+        ul ul {
+            padding-left:2em;
+            margin-bottom:0;
+            li {
+                list-style-type: square;
+                padding: .5em 0;
+
+            }
+            ul * {
+                margin:0;
+            }
+        }
     }
 }
 
