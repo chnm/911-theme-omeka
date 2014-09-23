@@ -44,7 +44,7 @@
                 <?php echo search_form(); ?>
             </div><!-- end search -->
 
-            <nav id="top-nav">
+            <nav id="top-nav" class="main-navigation">
                 <?php echo public_nav_main(); ?>
             </nav>
 

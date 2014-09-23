@@ -3,7 +3,34 @@
    * In this file you should write your main styles. (or centralize your imports)
    * Import this file using the following HTML or equivalent:
    * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-  /* line 17, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /*--------------------------------------------------------------
+  >>> TABLE OF CONTENTS:
+  ----------------------------------------------------------------
+  1.0 Reset
+  2.0 Typography
+  3.0 Structure
+  4.0 Elements
+      4.1 Headers
+  5.0 Forms
+  6.0 Navigation
+      6.1 Links
+      6.2 Menus
+  7.0 Content
+      7.1 Header
+      7.2 Footer
+      7.3 Items
+      7.4 Collections
+  8.0 Plugin Styles
+      8.1 Simple Pages
+      8.2 Carousel
+      8.3 Collection Tree
+      8.4 Contribution
+      8.5 User Profiles
+  
+  /*--------------------------------------------------------------
+  1.0 Reset
+  ---------------------------------------------------------------- */
+  /* line 17, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -25,58 +52,92 @@
     vertical-align: baseline;
   }
 
-  /* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 22, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   html {
     line-height: 1;
   }
 
-  /* line 24, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 24, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   ol, ul {
     list-style: none;
   }
 
-  /* line 26, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 26, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   table {
     border-collapse: collapse;
     border-spacing: 0;
   }
 
-  /* line 28, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 28, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   caption, th, td {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
   }
 
-  /* line 30, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 30, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q, blockquote {
     quotes: none;
   }
-  /* line 103, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none;
   }
 
-  /* line 32, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 32, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   a img {
     border: none;
   }
 
-  /* line 116, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 116, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block;
   }
 
-  /* @group ----- Generic HTML Elements ----- */
-  /* line 14, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  2.0 Typography
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  3.0 Structure
+  --------------------------------------------------------------*/
+  /* line 50, sass/_screen.scss */
+  #wrap {
+    *zoom: 1;
+    max-width: 65em;
+    _width: 65em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.28571em;
+    padding-bottom: 3.28571em;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  /* line 38, vender/bundle/ruby/2.1.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  #wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* line 57, sass/_screen.scss */
+  #content {
+    position: relative;
+    margin-bottom: 1.64286em;
+  }
+
+  /*--------------------------------------------------------------
+  4.0 Elements
+  --------------------------------------------------------------*/
+  /* line 66, sass/_screen.scss */
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  /* line 18, sass/_screen.scss */
+  /* line 70, sass/_screen.scss */
   html {
     background: url("../images/bg_small.jpg") gray no-repeat top center fixed;
     background-size: cover;
@@ -88,71 +149,77 @@
     overflow: hidden;
   }
 
-  /* line 29, sass/_screen.scss */
+  /* line 81, sass/_screen.scss */
   body {
     height: 100%;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
   }
 
-  /* line 35, sass/_screen.scss */
+  /* line 87, sass/_screen.scss */
   a {
     text-decoration: none;
     color: #8e8264;
   }
-  /* line 39, sass/_screen.scss */
+  /* line 91, sass/_screen.scss */
   a:hover, a:active {
     color: #bba46a;
   }
 
-  /* line 44, sass/_screen.scss */
+  /* line 96, sass/_screen.scss */
   em, i {
     font-style: italic;
   }
 
-  /* line 48, sass/_screen.scss */
+  /* line 100, sass/_screen.scss */
   strong, b {
     font-weight: bold;
   }
 
-  /* line 52, sass/_screen.scss */
+  /* line 104, sass/_screen.scss */
   p, ol, ul, dl {
     margin-bottom: 1.64286em;
   }
 
-  /* line 55, sass/_screen.scss */
+  /* line 107, sass/_screen.scss */
   ol {
     padding-left: 2em;
   }
 
-  /* line 59, sass/_screen.scss */
+  /* line 111, sass/_screen.scss */
   ul {
     padding-left: 1.25em;
   }
-  /* line 62, sass/_screen.scss */
+  /* line 114, sass/_screen.scss */
   ul li {
     list-style-type: disc;
   }
 
-  /* line 67, sass/_screen.scss */
-  h1 {
+  /*--------------------------------------------------------------
+  4.1 Headers
+  --------------------------------------------------------------*/
+  /* line 123, sass/_screen.scss */
+  h1, h2, h3, h4 {
     font-family: "PT Serif", serif;
+  }
+
+  /* line 126, sass/_screen.scss */
+  h1 {
     font-size: 28px;
     line-height: 46px;
     color: #213881;
     margin-bottom: 0.82143em;
   }
 
-  /* line 75, sass/_screen.scss */
+  /* line 133, sass/_screen.scss */
   h2 {
     font-size: 24.5px;
     line-height: 28.75px;
     margin-bottom: 1.09524em;
     font-weight: bold;
-    font-family: "PT Serif", serif;
   }
 
-  /* line 83, sass/_screen.scss */
+  /* line 140, sass/_screen.scss */
   h3 {
     font-size: 17.5px;
     line-height: 23px;
@@ -160,20 +227,152 @@
     font-weight: bold;
   }
 
-  /* line 90, sass/_screen.scss */
+  /* line 147, sass/_screen.scss */
   h4 {
-    font-family: "PT Serif", serif;
     margin-bottom: 1.09524em;
     font-weight: bold;
   }
 
-  /* line 95, sass/_screen.scss */
-  section {
-    display: block;
-    padding: .5em 0 1em;
+  /*--------------------------------------------------------------
+  5.0 Forms and Tables
+  --------------------------------------------------------------*/
+  /* line 4, sass/_forms.scss */
+  button,
+  input,
+  select,
+  textarea {
+    font-size: 100%;
+    /* Corrects font size not being inherited in all browsers */
+    margin: 0;
+    /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+    vertical-align: baseline;
+    /* Improves appearance and consistency in all browsers */
   }
 
-  /* line 99, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  4.1 Buttons
+  --------------------------------------------------------------*/
+  /* line 16, sass/_forms.scss */
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    border: 1px solid;
+    border-color: #cccccc #cccccc #bbbbbb;
+    background: #8e8264;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 15px 17px rgba(255, 255, 255, 0.2), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+    color: white;
+    cursor: pointer;
+    /* Improves usability and consistency of cursor style between image-type 'input' and others */
+    -webkit-appearance: button;
+    /* Corrects inability to style clickable 'input' types in iOS */
+    font-size: 14px;
+    padding: .4em 1em;
+    letter-spacing: 1px;
+  }
+
+  /* line 33, sass/_forms.scss */
+  button:hover,
+  input[type="button"]:hover,
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    border-color: #cccccc #bbbbbb #aaaaaa;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  }
+
+  /* line 45, sass/_forms.scss */
+  button:focus,
+  input[type="button"]:focus,
+  input[type="reset"]:focus,
+  input[type="submit"]:focus,
+  button:active,
+  input[type="button"]:active,
+  input[type="reset"]:active,
+  input[type="submit"]:active {
+    border-color: #aaaaaa #bbbbbb #bbbbbb;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  /*--------------------------------------------------------------
+  4.2 Fields
+  --------------------------------------------------------------*/
+  /* line 54, sass/_forms.scss */
+  input[type="checkbox"],
+  input[type="radio"] {
+    padding: 0;
+    /* Addresses excess padding in IE8/9 */
+  }
+
+  /* line 58, sass/_forms.scss */
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    /* Addresses appearance set to searchfield in S5, Chrome */
+    -webkit-box-sizing: content-box;
+    /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+
+  /* line 65, sass/_forms.scss */
+  input[type="search"]::-webkit-search-decoration {
+    /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+    -webkit-appearance: none;
+  }
+
+  /* line 70, sass/_forms.scss */
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+    border: 0;
+    padding: 0;
+  }
+
+  /* line 80, sass/_forms.scss */
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  textarea {
+    color: #4d4d4d;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  /* line 91, sass/_forms.scss */
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  textarea:focus {
+    color: #4d4d4d;
+  }
+
+  /* line 99, sass/_forms.scss */
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"] {
+    padding: .4em 1em;
+  }
+
+  /* line 103, sass/_forms.scss */
+  textarea {
+    overflow: auto;
+    /* Removes default vertical scrollbar in IE6/7/8/9 */
+    padding-left: 3px;
+    vertical-align: top;
+    /* Improves readability and alignment in all browsers */
+    width: 100%;
+  }
+
+  /* line 158, sass/_screen.scss */
   table {
     width: 100%;
     margin: 3.28571em 0;
@@ -181,14 +380,14 @@
     border-spacing: 0px;
   }
 
-  /* line 106, sass/_screen.scss */
+  /* line 165, sass/_screen.scss */
   th, td {
     margin: 0;
     padding: 10px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-  /* line 112, sass/_screen.scss */
+  /* line 171, sass/_screen.scss */
   th {
     text-align: left;
     color: #213881;
@@ -196,97 +395,78 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   }
 
-  /* line 121, sass/_screen.scss */
-  input[type=text],
-  input[type=password],
-  textarea {
-    border-color: rgba(0, 0, 0, 0.2);
-    padding: 0.41071em 10px;
-    border-style: solid;
-    border-width: 0.07143em;
-    padding: 0.33929em;
-    font-size: 14px;
-    line-height: 23px;
-    font-family: "Helvetica", "Arial", sans-serif;
-    margin: 0;
-  }
-
-  /* line 133, sass/_screen.scss */
-  input[type=submit],
-  button,
-  .button {
-    background-color: #8e8264;
-    padding: 0.41071em 10px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 23px;
-    border: 0;
-    margin: 0;
-  }
-
-  /* @end */
-  /* @group ----- Reusable classes ----- */
-  /* line 147, sass/_screen.scss */
+  /* line 177, sass/_screen.scss */
   .field {
     margin-bottom: 1.64286em;
   }
 
-  /* line 151, sass/_screen.scss */
-  .item-img * {
+  /*--------------------------------------------------------------
+  6.0 Navigation
+  --------------------------------------------------------------*/
+  /* line 1, sass/_navigation.scss */
+  #top-nav {
+    font-family: "PT Serif", serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: #cfcabc;
+    border-top-style: solid;
+    border-top-width: 0.07143em;
+    padding-top: 0.75em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.07143em;
+    padding-bottom: 0.75em;
+    margin-bottom: 1.64286em;
+    letter-spacing: 1px;
+  }
+  /* line 11, sass/_navigation.scss */
+  #top-nav ul {
+    margin-bottom: 0;
+  }
+  /* line 15, sass/_navigation.scss */
+  #top-nav li ul {
+    display: none;
+  }
+  /* line 19, sass/_navigation.scss */
+  #top-nav li {
+    margin: 0 10px;
+  }
+  /* line 26, sass/_navigation.scss */
+  #top-nav .menu {
+    display: inline-block;
+  }
+
+  /* line 31, sass/_navigation.scss */
+  #bottom-nav {
     display: block;
-    vertical-align: top;
-    margin-bottom: 1.64286em;
+    border-top: 0.07143em solid #cfcabc;
+    letter-spacing: 1px;
   }
-
-  /* line 156, sass/_screen.scss */
-  .element {
-    margin-bottom: 1.64286em;
+  /* line 35, sass/_navigation.scss */
+  #bottom-nav ul {
+    margin: 1em 0;
   }
-
-  /* line 160, sass/_screen.scss */
-  #flash li {
-    list-style-type: none;
+  /* line 38, sass/_navigation.scss */
+  #bottom-nav li {
+    display: inline-block;
   }
-
-  /* @end */
-  /* @group ----- Structure ----- */
-  /* line 168, sass/_screen.scss */
-  #wrap {
-    *zoom: 1;
-    max-width: 65em;
-    _width: 65em;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3.28571em;
-    padding-bottom: 3.28571em;
-    background-color: rgba(255, 255, 255, 0.3);
+  /* line 41, sass/_navigation.scss */
+  #bottom-nav li:after {
+    content: " | ";
   }
-  /* line 38, ../../../../../.rvm/gems/ruby-2.0.0-p0@susyone/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  #wrap:after {
+  /* line 45, sass/_navigation.scss */
+  #bottom-nav li:last-of-type:after {
     content: "";
-    display: table;
-    clear: both;
   }
 
-  /* line 175, sass/_screen.scss */
-  #content {
-    position: relative;
-    margin-bottom: 1.64286em;
-  }
-
-  /* @end */
-  /* @group ----- Navigation ----- */
-  /* line 185, sass/_screen.scss */
+  /* line 186, sass/_screen.scss */
   nav ul {
     padding-left: 0;
   }
-  /* line 188, sass/_screen.scss */
+  /* line 189, sass/_screen.scss */
   nav ul li {
     display: inline-block;
   }
-  /* line 192, sass/_screen.scss */
+  /* line 193, sass/_screen.scss */
   nav ul li ul {
     display: none;
   }
@@ -300,40 +480,28 @@
   .pagination-nav {
     width: 100%;
     float: left;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     margin-bottom: 2em;
   }
 
-  /* line 209, sass/_screen.scss */
+  /* line 208, sass/_screen.scss */
   .pagination {
-    /*position: relative;*/
     padding-left: 0;
     width: 100%;
     float: left;
-    /*    &:first-of-type:after {
-            content: "";
-            display: block;
-            width: 100%;
-            height: 1px;
-            background-color: rgba(0,0,0,.15);
-            position: absolute;
-            bottom: rhythm(-1);
-            left: 0;
-        }*/
   }
-  /* line 215, sass/_screen.scss */
+  /* line 213, sass/_screen.scss */
   .pagination:first-of-type {
     margin-bottom: 1.64286em;
   }
-  /* line 230, sass/_screen.scss */
+  /* line 217, sass/_screen.scss */
   .pagination > *:last-child {
     margin-right: 0;
   }
-  /* line 234, sass/_screen.scss */
+  /* line 221, sass/_screen.scss */
   .pagination .page-input {
     padding: 0.41071em 10px 0.20536em;
   }
-  /* line 238, sass/_screen.scss */
+  /* line 225, sass/_screen.scss */
   .pagination input[type=text] {
     background: transparent;
     border: 0;
@@ -349,7 +517,7 @@
     width: 3em;
     margin: 0;
   }
-  /* line 252, sass/_screen.scss */
+  /* line 239, sass/_screen.scss */
   .pagination li {
     display: block;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
@@ -357,33 +525,33 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     float: left;
   }
-  /* line 259, sass/_screen.scss */
+  /* line 246, sass/_screen.scss */
   .pagination .pagination_next,
   .pagination .pagination_previous {
     background-color: #8e8264;
   }
-  /* line 262, sass/_screen.scss */
+  /* line 249, sass/_screen.scss */
   .pagination .pagination_next a,
   .pagination .pagination_previous a {
     display: inline-block;
     padding: 0.41071em 10px;
     color: #fff;
   }
-  /* line 269, sass/_screen.scss */
+  /* line 256, sass/_screen.scss */
   .pagination + *:not(#sort-links) {
     clear: both;
   }
-  /* line 273, sass/_screen.scss */
+  /* line 260, sass/_screen.scss */
   .pagination:last-of-type + * {
     clear: both;
   }
 
-  /* line 278, sass/_screen.scss */
+  /* line 265, sass/_screen.scss */
   #sort-links {
     float: right;
     margin-top: -6.25em;
   }
-  /* line 284, sass/_screen.scss */
+  /* line 269, sass/_screen.scss */
   #sort-links span {
     padding: 0.65714em 7px 0.65714em 10px;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
@@ -391,139 +559,131 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
-  /* line 290, sass/_screen.scss */
+  /* line 275, sass/_screen.scss */
   #sort-links ul, #sort-links li, #sort-links a {
     display: inline-block;
   }
-  /* line 294, sass/_screen.scss */
+  /* line 279, sass/_screen.scss */
   #sort-links ul {
     margin-bottom: 0;
     padding-left: 0;
   }
-  /* line 298, sass/_screen.scss */
+  /* line 283, sass/_screen.scss */
   #sort-links li {
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   }
-  /* line 301, sass/_screen.scss */
+  /* line 286, sass/_screen.scss */
   #sort-links a {
     background-color: #8e8264;
     color: #fff;
     padding: 0.41071em 10px;
   }
-  /* line 307, sass/_screen.scss */
+  /* line 292, sass/_screen.scss */
   #sort-links + * {
     clear: both;
   }
 
-  /* @end */
-  /* @group ----- Header ----- */
-  /* line 315, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  7.0 Content
+  --------------------------------------------------------------*/
+  /* line 301, sass/_screen.scss */
+  section {
+    display: block;
+    padding: .5em 0 1em;
+  }
+
+  /* line 306, sass/_screen.scss */
+  .element {
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 310, sass/_screen.scss */
+  .item-img * {
+    display: block;
+    vertical-align: top;
+    margin-bottom: 1.64286em;
+  }
+
+  /* line 317, sass/_screen.scss */
+  #flash li {
+    list-style-type: none;
+  }
+
+  /*--------------------------------------------------------------
+  7.1 Header
+  --------------------------------------------------------------*/
+  /* line 325, sass/_screen.scss */
   header {
     position: relative;
   }
 
-  /* line 319, sass/_screen.scss */
-  #top-nav {
-    font-family: "PT Serif", serif;
-    text-align: center;
-    text-transform: uppercase;
-    border-color: #cfcabc;
-    border-top-style: solid;
-    border-top-width: 0.07143em;
-    padding-top: 0.75em;
-    border-bottom-style: solid;
-    border-bottom-width: 0.07143em;
-    padding-bottom: 0.75em;
-    margin-bottom: 1.64286em;
-    letter-spacing: 1px;
-  }
   /* line 329, sass/_screen.scss */
-  #top-nav ul {
-    margin-bottom: 0;
-  }
-  /* line 333, sass/_screen.scss */
-  #top-nav li ul {
-    display: none;
-  }
-  /* line 337, sass/_screen.scss */
-  #top-nav li {
-    margin: 0 10px;
-  }
-
-  /* line 342, sass/_screen.scss */
   #site-title {
     margin-bottom: 1.64286em;
     text-align: center;
   }
-  /* line 346, sass/_screen.scss */
+  /* line 333, sass/_screen.scss */
   #site-title * {
     vertical-align: top;
   }
-  /* line 350, sass/_screen.scss */
+  /* line 337, sass/_screen.scss */
   #site-title a {
     display: inline-block;
   }
-  /* line 354, sass/_screen.scss */
+  /* line 341, sass/_screen.scss */
   #site-title img {
     max-width: 100%;
     height: auto;
     width: 100%;
   }
 
-  /* line 361, sass/_screen.scss */
+  /* line 348, sass/_screen.scss */
   #search-form {
     width: 100%;
     margin-bottom: 1.64286em;
     float: left;
   }
-  /* line 366, sass/_screen.scss */
+  /* line 353, sass/_screen.scss */
   #search-form input[type=text] {
     width: 70%;
     float: left;
-    height: 31px;
   }
-  /* line 373, sass/_screen.scss */
+  /* line 357, sass/_screen.scss */
   #search-form input[type=submit], #search-form button[type=submit] {
     width: 30%;
     float: left;
   }
 
-  /* @end */
-  /* @group ----- Footer ----- */
-  /* line 383, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  7.2 Footer
+  --------------------------------------------------------------*/
+  /* line 367, sass/_screen.scss */
   footer {
     clear: both;
     border-color: #cfcabc;
-    border-top-style: solid;
-    border-top-width: 0.07143em;
-    padding-top: 0.75em;
     margin-bottom: 1.64286em;
     letter-spacing: 1px;
   }
-  /* line 390, sass/_screen.scss */
+  /* line 373, sass/_screen.scss */
   footer nav li {
     margin-right: 10px;
   }
 
-  /* line 394, sass/_screen.scss */
+  /* line 377, sass/_screen.scss */
   #footer-text {
     font-size: .8em;
   }
-  /* line 396, sass/_screen.scss */
+  /* line 379, sass/_screen.scss */
   #footer-text p {
     margin-bottom: .5em;
   }
 
-  /* @end */
-  /* @group ----- Home ----- */
-  /* #home #search-form {
-      display: none;
-  } */
-  /* @end */
-  /* @group ----- Items ----- */
-  /* line 414, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  7.3 Items
+  --------------------------------------------------------------*/
+  /* line 389, sass/_screen.scss */
   .items .item {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -531,36 +691,37 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 420, sass/_screen.scss */
+  /* line 395, sass/_screen.scss */
   .items .item-meta {
     padding-bottom: 1em;
   }
-  /* line 423, sass/_screen.scss */
+  /* line 398, sass/_screen.scss */
   .items .element-set {
     margin-bottom: 3.28571em;
   }
 
-  /* line 429, sass/_screen.scss */
+  /* line 404, sass/_screen.scss */
   .search-entry {
     margin-bottom: 1em;
   }
-  /* line 431, sass/_screen.scss */
+  /* line 406, sass/_screen.scss */
   .search-entry .advanced-search-element {
     max-width: 300px;
   }
 
-  /* line 436, sass/_screen.scss */
+  /* line 411, sass/_screen.scss */
   #advanced-search-form {
     margin-bottom: 3.28571em;
   }
 
-  /* @end */
-  /* @group ----- Collections ----- */
-  /* line 445, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  7.4 Collections
+  --------------------------------------------------------------*/
+  /* line 420, sass/_screen.scss */
   .collections h2 {
     margin-bottom: 1em;
   }
-  /* line 448, sass/_screen.scss */
+  /* line 423, sass/_screen.scss */
   .collections .collection {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -568,56 +729,61 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 454, sass/_screen.scss */
+  /* line 429, sass/_screen.scss */
   .collections #collection-items .hentry {
     margin-bottom: 1.64286em;
     padding-bottom: 1em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 459, sass/_screen.scss */
+  /* line 434, sass/_screen.scss */
   .collections #collection-items .hentry:last-of-type {
     border-bottom: none;
   }
-  /* line 463, sass/_screen.scss */
+  /* line 438, sass/_screen.scss */
   .collections #collection-items p {
     display: none;
   }
-  /* line 466, sass/_screen.scss */
+  /* line 441, sass/_screen.scss */
   .collections #collection-tree ul {
     padding: 0;
   }
-  /* line 469, sass/_screen.scss */
+  /* line 444, sass/_screen.scss */
   .collections #collection-tree li {
     list-style-type: none;
   }
-  /* line 472, sass/_screen.scss */
+  /* line 447, sass/_screen.scss */
   .collections #collection-tree ul ul {
     padding-left: 2em;
     margin-bottom: 0;
   }
-  /* line 475, sass/_screen.scss */
+  /* line 450, sass/_screen.scss */
   .collections #collection-tree ul ul li {
     list-style-type: square;
     padding: .5em 1em;
   }
-  /* line 480, sass/_screen.scss */
+  /* line 455, sass/_screen.scss */
   .collections #collection-tree ul ul ul * {
     margin: 0;
   }
 
-  /* @group ------ Simple Pages ------ */
+  /*--------------------------------------------------------------
+  8.0 Plugin Styles
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  8.1 Simple Pages
+  --------------------------------------------------------------*/
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 490, sass/_screen.scss */
+  /* line 469, sass/_screen.scss */
   #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 494, sass/_screen.scss */
+  /* line 473, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 498, sass/_screen.scss */
+  /* line 477, sass/_screen.scss */
   #home .text {
     width: 100%;
     float: left;
@@ -626,7 +792,7 @@
     font-size: 15px;
     line-height: 25px;
   }
-  /* line 506, sass/_screen.scss */
+  /* line 485, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.3);
     padding: 1em 2em;
@@ -635,94 +801,98 @@
     float: left;
     font-size: 15px;
   }
-  /* line 514, sass/_screen.scss */
+  /* line 493, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 519, sass/_screen.scss */
+  /* line 498, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 524, sass/_screen.scss */
+  /* line 503, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 528, sass/_screen.scss */
+  /* line 507, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 532, sass/_screen.scss */
+  /* line 511, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 537, sass/_screen.scss */
+  /* line 516, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 542, sass/_screen.scss */
+  /* line 521, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 547, sass/_screen.scss */
+  /* line 526, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 554, sass/_screen.scss */
+  /* line 533, sass/_screen.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 5em;
   }
 
-  /* line 559, sass/_screen.scss */
+  /* line 538, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0 0 1em;
     padding-left: 1.5em;
   }
-  /* line 562, sass/_screen.scss */
+  /* line 541, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: square;
     padding-bottom: 5px;
   }
 
-  /* @group ------ Carousel ----- */
-  /* line 569, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  8.2 Carousel
+  --------------------------------------------------------------*/
+  /* line 550, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
 
-  /* @group ------ Collection-Tree ----- */
-  /* line 574, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  8.3 Collection Tree
+  --------------------------------------------------------------*/
+  /* line 557, sass/_screen.scss */
   .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
-  /* line 579, sass/_screen.scss */
+  /* line 562, sass/_screen.scss */
   .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 583, sass/_screen.scss */
+  /* line 566, sass/_screen.scss */
   .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
-  /* line 587, sass/_screen.scss */
+  /* line 570, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 160px;
@@ -737,92 +907,96 @@
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 602, sass/_screen.scss */
+  /* line 585, sass/_screen.scss */
   .collection-tree #collection-tree ul ul {
     display: none;
   }
 
-  /* @group ------ Contribution Plugin ----- */
-  /* line 608, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  8.4 Contribution
+  --------------------------------------------------------------*/
+  /* line 594, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 612, sass/_screen.scss */
+  /* line 598, sass/_screen.scss */
   .contribution #recaptcha_widget_div {
     margin-bottom: 1em;
   }
 
-  /* line 616, sass/_screen.scss */
+  /* line 602, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 618, sass/_screen.scss */
+  /* line 604, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 624, sass/_screen.scss */
+  /* line 610, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 628, sass/_screen.scss */
+  /* line 614, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 631, sass/_screen.scss */
+  /* line 617, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 635, sass/_screen.scss */
+  /* line 621, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 639, sass/_screen.scss */
+  /* line 625, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 646, sass/_screen.scss */
+  /* line 632, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 648, sass/_screen.scss */
+  /* line 634, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 652, sass/_screen.scss */
+  /* line 638, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
 
-  /* @group ------ Contribution Plugin - User Profiles ----- */
-  /* line 658, sass/_screen.scss */
+  /*--------------------------------------------------------------
+  8.5 User Profiles
+  --------------------------------------------------------------*/
+  /* line 646, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 660, sass/_screen.scss */
+  /* line 648, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 663, sass/_screen.scss */
+  /* line 651, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 666, sass/_screen.scss */
+  /* line 654, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 670, sass/_screen.scss */
+  /* line 657, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -832,43 +1006,50 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 679, sass/_screen.scss */
+  /* line 665, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 682, sass/_screen.scss */
+  /* line 668, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;
   }
-
-  /* @end */
 }
 @media screen and (max-width: 500px) {
-  /* line 6, sass/_mobile.scss */
+  /*--------------------------------------------------------------
+  3.0 Structure
+  --------------------------------------------------------------*/
+  /* line 10, sass/_mobile.scss */
   #wrap {
     padding-left: 1em;
     padding-right: 1em;
   }
 
-  /* line 11, sass/_mobile.scss */
+  /*--------------------------------------------------------------
+  5.0 Forms
+  --------------------------------------------------------------*/
+  /* line 19, sass/_mobile.scss */
   textarea {
     max-width: 300px;
   }
 
-  /* line 15, sass/_mobile.scss */
+  /*--------------------------------------------------------------
+  6.0 Navigation
+  --------------------------------------------------------------*/
+  /* line 27, sass/_mobile.scss */
   #top-nav {
     text-align: left;
   }
 
-  /* line 18, sass/_mobile.scss */
+  /* line 31, sass/_mobile.scss */
   .pagination-nav {
     border-bottom: none;
     margin-bottom: initial;
   }
 
-  /* line 22, sass/_mobile.scss */
+  /* line 36, sass/_mobile.scss */
   #sort-links {
     width: 100%;
     float: left;
@@ -878,68 +1059,91 @@
     padding-bottom: 1.5em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   }
-  /* line 30, sass/_mobile.scss */
+  /* line 44, sass/_mobile.scss */
   #sort-links .sort-label {
     background-color: #fff;
     padding: 0.575em 7px 0.575em 10px;
   }
 
-  /* line 35, sass/_mobile.scss */
+  /* line 49, sass/_mobile.scss */
+  #bottom-nav {
+    display: none;
+  }
+
+  /*--------------------------------------------------------------
+  7.1 Header
+  --------------------------------------------------------------*/
+  /* line 56, sass/_mobile.scss */
+  #search-form input[type=text] {
+    width: 50%;
+    float: left;
+  }
+  /* line 60, sass/_mobile.scss */
+  #search-form input[type=submit], #search-form button[type=submit] {
+    width: 50%;
+    float: left;
+  }
+
+  /*--------------------------------------------------------------
+  8.1 Simple Pages
+  --------------------------------------------------------------*/
+  /* line 70, sass/_mobile.scss */
   #home .text, #home .secondary {
     padding: 1em .5em;
     font-size: 14px;
     line-height: 24px;
   }
 
-  /* line 40, sass/_mobile.scss */
+  /* line 75, sass/_mobile.scss */
   #home .collection .collection-description {
     width: 100%;
     float: left;
   }
 
-  /*#collection-tree {
-      ul li a {
-          width:47%;
-      }
-  }*/
-  /* line 50, sass/_mobile.scss */
-  #contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
-    max-width: 100% !important;
-  }
-
-  /* line 54, sass/_mobile.scss */
-  #recaptcha_area, #recaptcha_table {
-    max-width: 300px !important;
-  }
-
-  /* line 58, sass/_mobile.scss */
-  #contribution-type-form .contribution-userprofile .two.columns.alpha {
-    width: 100%;
-    float: left;
-  }
-  /* line 62, sass/_mobile.scss */
-  #contribution-type-form .contribution-userprofile .five.columns.omega {
-    float: left;
-    margin: 10px 0 0;
-  }
-
-  /* line 69, sass/_mobile.scss */
+  /* line 80, sass/_mobile.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 0;
   }
 
-  /* line 74, sass/_mobile.scss */
+  /*--------------------------------------------------------------
+  8.3 Collection Tree
+  --------------------------------------------------------------*/
+  /* line 89, sass/_mobile.scss */
   .gallery img {
     width: 100%;
     float: left;
     background-color: #fff;
     margin-bottom: 1.64286em;
   }
-  /* line 80, sass/_mobile.scss */
+  /* line 95, sass/_mobile.scss */
   .gallery p {
     width: 100%;
     float: left;
     padding-left: 0px;
+  }
+
+  /*--------------------------------------------------------------
+  8.4 Contribution
+  --------------------------------------------------------------*/
+  /* line 106, sass/_mobile.scss */
+  #contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
+    max-width: 100% !important;
+  }
+
+  /* line 110, sass/_mobile.scss */
+  #recaptcha_area, #recaptcha_table {
+    max-width: 300px !important;
+  }
+
+  /* line 114, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .two.columns.alpha {
+    width: 100%;
+    float: left;
+  }
+  /* line 118, sass/_mobile.scss */
+  #contribution-type-form .contribution-userprofile .five.columns.omega {
+    float: left;
+    margin: 10px 0 0;
   }
 }
 @media print {

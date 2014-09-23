@@ -3,22 +3,36 @@
 @import "compass/typography";
 @import "susy";
 
+/*--------------------------------------------------------------
+3.0 Structure
+--------------------------------------------------------------*/
+
 #wrap {
     padding-left: 1em;
     padding-right: 1em;
 }
 
+/*--------------------------------------------------------------
+5.0 Forms
+--------------------------------------------------------------*/
+
 textarea {
     max-width: 300px;
 }
 
+
+/*--------------------------------------------------------------
+6.0 Navigation
+--------------------------------------------------------------*/
 #top-nav {
     text-align: left;
 }
+    
 .pagination-nav {
-	border-bottom: none;
-	margin-bottom:initial;
+    border-bottom: none;
+    margin-bottom:initial;
 }
+
 #sort-links {
     width:100%;
     float:left;
@@ -32,6 +46,27 @@ textarea {
         padding: rhythm(.35) 7px rhythm(.35) 10px;
     }
 }
+#bottom-nav {
+    display: none;
+}
+/*--------------------------------------------------------------
+7.1 Header
+--------------------------------------------------------------*/
+#search-form {
+    input[type=text] {
+        width: 50%;
+        float: left;
+    }    
+    input[type=submit], button[type=submit] {
+        width: 50%;
+        float: left;
+    }
+}
+
+/*--------------------------------------------------------------
+8.1 Simple Pages
+--------------------------------------------------------------*/
+
 #home .text, #home .secondary {
     padding: 1em .5em;
     font-size:14px;
@@ -41,12 +76,33 @@ textarea {
     width:100%;
     float:left;
 }
-
-/*#collection-tree {
-    ul li a {
-        width:47%;
+#about, #faqs, #staff, #partners {
+    #content {
+        padding-right:0;
     }
-}*/
+}
+/*--------------------------------------------------------------
+8.3 Collection Tree
+--------------------------------------------------------------*/
+
+.gallery {
+    img {
+        width:100%;
+        float:left;
+        background-color: #fff;
+        @include trailer();
+    }
+    p {
+        width:100%;
+        float:left;
+        padding-left:0px;
+    }
+}
+
+/*--------------------------------------------------------------
+8.4 Contribution
+--------------------------------------------------------------*/
+
 #contribution-item-metadata, #contribution-type-form, #contribution-confirm-submit {
     max-width:100%!important;
 }
@@ -65,21 +121,4 @@ textarea {
     }
 
 }
-#about, #faqs, #staff, #partners {
-    #content {
-        padding-right:0;
-    }
-}
-.gallery {
-    img {
-        width:100%;
-        float:left;
-        background-color: #fff;
-        @include trailer();
-    }
-    p {
-        width:100%;
-        float:left;
-        padding-left:0px;
-    }
-}
+

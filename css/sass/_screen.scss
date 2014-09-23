@@ -4,12 +4,64 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "base";
-@import "compass/reset";
 @import "compass/css3";
-@import "compass/typography";
 @import "susy";
 
-/* @group ----- Generic HTML Elements ----- */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+2.0 Typography
+3.0 Structure
+4.0 Elements
+    4.1 Headers
+5.0 Forms
+6.0 Navigation
+    6.1 Links
+    6.2 Menus
+7.0 Content
+    7.1 Header
+    7.2 Footer
+    7.3 Items
+    7.4 Collections
+8.0 Plugin Styles
+    8.1 Simple Pages
+    8.2 Carousel
+    8.3 Collection Tree
+    8.4 Contribution
+    8.5 User Profiles
+
+/*--------------------------------------------------------------
+1.0 Reset
+---------------------------------------------------------------- */
+
+@import "compass/reset";
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+
+@import "compass/typography";
+
+/*--------------------------------------------------------------
+3.0 Structure
+--------------------------------------------------------------*/
+
+#wrap {
+    @include container;
+    @include padding-leader(2);
+    @include padding-trailer(2);
+    background-color: rgba(255,255,255,.4);
+}
+
+#content {
+    position: relative;
+    @include trailer ();
+}
+
+/*--------------------------------------------------------------
+4.0 Elements
+--------------------------------------------------------------*/
 
 * {
     @include box-sizing(border-box);
@@ -18,7 +70,7 @@
 html {
     background: url('../images/bg_small.jpg') #808080 no-repeat top center fixed;
     background-size: cover;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: $font-main;
     font-size: $base-font-size;
     line-height: $base-line-height;
     color: #4d4d4d;
@@ -62,10 +114,16 @@ ul {
     li {
         list-style-type: disc;
     }
-}
+} 
 
-h1 {
+/*--------------------------------------------------------------
+4.1 Headers
+--------------------------------------------------------------*/
+
+h1, h2, h3, h4 {
     font-family: "PT Serif", serif;
+}
+h1 {
     font-size: 2 * $base-font-size;
     line-height: 2 * $base-line-height;
     color: $blue;
@@ -77,7 +135,6 @@ h2 {
     line-height: 1.25 * $base-line-height;
     @include trailer(1, 1.5 * $base-font-size);
     font-weight: bold;
-    font-family: "PT Serif", serif;
 }
 
 h3 {
@@ -88,14 +145,16 @@ h3 {
 }
 
 h4 {
-    font-family: "PT Serif", serif;
     @include trailer(1, 1.5 * $base-font-size);
     font-weight: bold;
 }
-section {
-    display:block;
-    padding:.5em 0 1em;
-}
+
+/*--------------------------------------------------------------
+5.0 Forms and Tables
+--------------------------------------------------------------*/
+
+@import "forms";
+
 table {
     width: 100%;
     margin: rhythm(2) 0;
@@ -115,72 +174,14 @@ th {
     font-weight:bold;
     border-bottom: 2px solid $gray;
 }
-
-input[type=text],
-input[type=password],
-textarea {
-    border-color: $gray;
-    padding: rhythm(.25) 10px;
-    @include rhythm-borders(1px, .25, $base-font-size, solid);
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-family: "Helvetica", "Arial", sans-serif;
-    margin: 0;
-}
-
-input[type=submit],
-button,
-.button {
-    background-color: $gold;
-    padding: rhythm(.25) 10px;
-    color: #fff;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    border: 0;
-    margin: 0;
-}
-
-/* @end */
-
-/* @group ----- Reusable classes ----- */
-
 .field {
     @include trailer();
 }
 
-.item-img * {
-    display: block;
-    vertical-align: top;
-    @include trailer();
-}
-.element {
-    @include trailer(1);
-}   
-#flash {
-    li {
-        list-style-type: none;
-    }
-}
-/* @end */
-
-/* @group ----- Structure ----- */
-
-#wrap {
-    @include container;
-    @include padding-leader(2);
-    @include padding-trailer(2);
-    background-color: rgba(255,255,255,.3);
-}
-
-#content {
-    position: relative;
-    @include trailer ();
-}
-
-
-/* @end */
-
-/* @group ----- Navigation ----- */
+/*--------------------------------------------------------------
+6.0 Navigation
+--------------------------------------------------------------*/
+@import "navigation";
 
 nav ul {
     padding-left: 0;
@@ -194,20 +195,17 @@ nav ul {
     }
 }
 
-.secondary-nav {
-    li {
-        margin-right: 10px;
-    }
+.secondary-nav li {
+    margin-right: 10px;
 }
+
 .pagination-nav {
     width:100%;
     float:left;
-    border-bottom:1px solid rgba(0,0,0,.15);
     margin-bottom:2em;
 }
 
 .pagination {
-    /*position: relative;*/
     padding-left: 0;
     width: 100%;
     float: left;
@@ -216,17 +214,6 @@ nav ul {
         @include trailer(1);
     }
 
-/*    &:first-of-type:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 1px;
-        background-color: rgba(0,0,0,.15);
-        position: absolute;
-        bottom: rhythm(-1);
-        left: 0;
-    }*/
-    
     & > *:last-child {
         margin-right: 0;
     }
@@ -276,10 +263,8 @@ nav ul {
 }
 
 #sort-links {
-    
     float: right;
     margin-top: -6.25em;
-
 
     span {
         padding: rhythm(.4) 7px rhythm(.4) 10px;
@@ -308,35 +293,37 @@ nav ul {
         clear: both;
     }
 }
-/* @end */
 
-/* @group ----- Header ----- */
+/*--------------------------------------------------------------
+7.0 Content
+--------------------------------------------------------------*/
+
+section {
+    display:block;
+    padding:.5em 0 1em;
+}
+
+.element {
+    @include trailer(1);
+} 
+
+.item-img * {
+    display: block;
+    vertical-align: top;
+    @include trailer();
+}
+ 
+#flash {
+    li {
+        list-style-type: none;
+    }
+}
+/*--------------------------------------------------------------
+7.1 Header
+--------------------------------------------------------------*/
 
 header {
     position: relative;
-}
-
-#top-nav {
-    font-family: "PT Serif", serif;
-    text-align: center;
-    text-transform: uppercase;
-    border-color: lighten($gold, 30%);
-    @include leading-border(1px, .5, $base-font-size, solid);
-    @include trailing-border(1px, .5, $base-font-size, solid);
-    @include trailer();
-    letter-spacing: 1px;
-    
-    ul {
-        margin-bottom: 0;
-    }
-
-    li ul {
-        display: none;
-    }
-    
-    li {
-        margin: 0 10px;
-    }
 }
 
 #site-title {
@@ -366,24 +353,20 @@ header {
     input[type=text] {
         width: 70%;
         float: left;
-        height: 31px;
-
-    }
-    
+    }    
     input[type=submit], button[type=submit] {
         width: 30%;
         float: left;
     }
 }
 
-/* @end */
-
-/* @group ----- Footer ----- */
+/*--------------------------------------------------------------
+7.2 Footer
+--------------------------------------------------------------*/
 
 footer {
     clear: both;
     border-color: lighten($gold, 30%);
-    @include leading-border(1px, .5, $base-font-size, solid);
     @include trailer();
     letter-spacing: 1px;
     
@@ -398,17 +381,9 @@ footer {
     }
 }
 
-/* @end */
-
-/* @group ----- Home ----- */
-
-/* #home #search-form {
-    display: none;
-} */
-
-/* @end */
-
-/* @group ----- Items ----- */
+/*--------------------------------------------------------------
+7.3 Items
+--------------------------------------------------------------*/
 
 .items {
     .item {
@@ -437,9 +412,9 @@ footer {
     @include trailer(2);
 }
 
-/* @end */
-
-/* @group ----- Collections ----- */
+/*--------------------------------------------------------------
+7.4 Collections
+--------------------------------------------------------------*/
 
 .collections {
     h2 {
@@ -484,8 +459,12 @@ footer {
     }
 }
 
-/* @group ------ Simple Pages ------ */
-
+/*--------------------------------------------------------------
+8.0 Plugin Styles
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+8.1 Simple Pages
+--------------------------------------------------------------*/
 /* Removing breadcrumbs and h1 from pages as index.html */
 #simple-pages-breadcrumbs {
     display:none;
@@ -564,13 +543,17 @@ footer {
         padding-bottom:5px;
     }
 }
-/* @group ------ Carousel ----- */
 
+/*--------------------------------------------------------------
+8.2 Carousel
+--------------------------------------------------------------*/
 .jcarousel img {
     margin:0 auto;
 }
-/* @group ------ Collection-Tree ----- */
 
+/*--------------------------------------------------------------
+8.3 Collection Tree
+--------------------------------------------------------------*/
 .collection-tree #collection-tree {
     display:block;
     float:left;
@@ -604,7 +587,10 @@ footer {
     }
 }
 
-/* @group ------ Contribution Plugin ----- */
+
+/*--------------------------------------------------------------
+8.4 Contribution
+--------------------------------------------------------------*/
 .contribution #primary {
     display: block;
     margin-bottom: 1em;
@@ -654,7 +640,9 @@ footer {
     }
 }
 
-/* @group ------ Contribution Plugin - User Profiles ----- */
+/*--------------------------------------------------------------
+8.5 User Profiles
+--------------------------------------------------------------*/
 .userprofiles.required-profile {
     margin-bottom:1.5em;
     p {
@@ -665,14 +653,12 @@ footer {
         padding:0;
         li {
             list-style-type: none;
-
         }
         a {
             display:inline-block;
             background-color:rgba(142,130,100,.2);
             padding:.5em;
             @include shadow;
-
         }
     }
 }
@@ -682,9 +668,6 @@ footer {
     #edit-form {
         width:100%;
         float:left;
-
     }
 
 }
-
-/* @end */
