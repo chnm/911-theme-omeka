@@ -366,7 +366,7 @@ header {
 
 footer {
     clear: both;
-    border-color: lighten($gold, 30%);
+    border-top: 0.07143em solid lighten($gold, 30%);
     @include trailer();
     letter-spacing: 1px;
     
@@ -375,6 +375,7 @@ footer {
     }
 }
 #footer-text {
+    padding-top:10px;
     font-size:.8em;
     p {
         margin-bottom:.5em;

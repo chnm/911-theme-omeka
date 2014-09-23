@@ -438,22 +438,21 @@
   /* line 31, sass/_navigation.scss */
   #bottom-nav {
     display: block;
-    border-top: 0.07143em solid #cfcabc;
     letter-spacing: 1px;
   }
-  /* line 35, sass/_navigation.scss */
+  /* line 34, sass/_navigation.scss */
   #bottom-nav ul {
     margin: 1em 0;
   }
-  /* line 38, sass/_navigation.scss */
+  /* line 37, sass/_navigation.scss */
   #bottom-nav li {
     display: inline-block;
   }
-  /* line 41, sass/_navigation.scss */
+  /* line 40, sass/_navigation.scss */
   #bottom-nav li:after {
     content: " | ";
   }
-  /* line 45, sass/_navigation.scss */
+  /* line 44, sass/_navigation.scss */
   #bottom-nav li:last-of-type:after {
     content: "";
   }
@@ -662,7 +661,7 @@
   /* line 367, sass/_screen.scss */
   footer {
     clear: both;
-    border-color: #cfcabc;
+    border-top: 0.07143em solid #cfcabc;
     margin-bottom: 1.64286em;
     letter-spacing: 1px;
   }
@@ -673,9 +672,10 @@
 
   /* line 377, sass/_screen.scss */
   #footer-text {
+    padding-top: 10px;
     font-size: .8em;
   }
-  /* line 379, sass/_screen.scss */
+  /* line 380, sass/_screen.scss */
   #footer-text p {
     margin-bottom: .5em;
   }
@@ -683,7 +683,7 @@
   /*--------------------------------------------------------------
   7.3 Items
   --------------------------------------------------------------*/
-  /* line 389, sass/_screen.scss */
+  /* line 390, sass/_screen.scss */
   .items .item {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -691,25 +691,25 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 395, sass/_screen.scss */
+  /* line 396, sass/_screen.scss */
   .items .item-meta {
     padding-bottom: 1em;
   }
-  /* line 398, sass/_screen.scss */
+  /* line 399, sass/_screen.scss */
   .items .element-set {
     margin-bottom: 3.28571em;
   }
 
-  /* line 404, sass/_screen.scss */
+  /* line 405, sass/_screen.scss */
   .search-entry {
     margin-bottom: 1em;
   }
-  /* line 406, sass/_screen.scss */
+  /* line 407, sass/_screen.scss */
   .search-entry .advanced-search-element {
     max-width: 300px;
   }
 
-  /* line 411, sass/_screen.scss */
+  /* line 412, sass/_screen.scss */
   #advanced-search-form {
     margin-bottom: 3.28571em;
   }
@@ -717,11 +717,11 @@
   /*--------------------------------------------------------------
   7.4 Collections
   --------------------------------------------------------------*/
-  /* line 420, sass/_screen.scss */
+  /* line 421, sass/_screen.scss */
   .collections h2 {
     margin-bottom: 1em;
   }
-  /* line 423, sass/_screen.scss */
+  /* line 424, sass/_screen.scss */
   .collections .collection {
     border-color: rgba(0, 0, 0, 0.2);
     border-bottom-style: solid;
@@ -729,39 +729,39 @@
     padding-bottom: -0.07143em;
     margin-bottom: 1.64286em;
   }
-  /* line 429, sass/_screen.scss */
+  /* line 430, sass/_screen.scss */
   .collections #collection-items .hentry {
     margin-bottom: 1.64286em;
     padding-bottom: 1em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 434, sass/_screen.scss */
+  /* line 435, sass/_screen.scss */
   .collections #collection-items .hentry:last-of-type {
     border-bottom: none;
   }
-  /* line 438, sass/_screen.scss */
+  /* line 439, sass/_screen.scss */
   .collections #collection-items p {
     display: none;
   }
-  /* line 441, sass/_screen.scss */
+  /* line 442, sass/_screen.scss */
   .collections #collection-tree ul {
     padding: 0;
   }
-  /* line 444, sass/_screen.scss */
+  /* line 445, sass/_screen.scss */
   .collections #collection-tree li {
     list-style-type: none;
   }
-  /* line 447, sass/_screen.scss */
+  /* line 448, sass/_screen.scss */
   .collections #collection-tree ul ul {
     padding-left: 2em;
     margin-bottom: 0;
   }
-  /* line 450, sass/_screen.scss */
+  /* line 451, sass/_screen.scss */
   .collections #collection-tree ul ul li {
     list-style-type: square;
     padding: .5em 1em;
   }
-  /* line 455, sass/_screen.scss */
+  /* line 456, sass/_screen.scss */
   .collections #collection-tree ul ul ul * {
     margin: 0;
   }
@@ -773,17 +773,17 @@
   8.1 Simple Pages
   --------------------------------------------------------------*/
   /* Removing breadcrumbs and h1 from pages as index.html */
-  /* line 469, sass/_screen.scss */
+  /* line 470, sass/_screen.scss */
   #simple-pages-breadcrumbs {
     display: none;
   }
 
-  /* line 473, sass/_screen.scss */
+  /* line 474, sass/_screen.scss */
   #home h1 {
     display: none;
   }
 
-  /* line 477, sass/_screen.scss */
+  /* line 478, sass/_screen.scss */
   #home .text {
     width: 100%;
     float: left;
@@ -792,7 +792,7 @@
     font-size: 15px;
     line-height: 25px;
   }
-  /* line 485, sass/_screen.scss */
+  /* line 486, sass/_screen.scss */
   #home .secondary {
     background-color: rgba(142, 130, 100, 0.3);
     padding: 1em 2em;
@@ -801,63 +801,63 @@
     float: left;
     font-size: 15px;
   }
-  /* line 493, sass/_screen.scss */
+  /* line 494, sass/_screen.scss */
   #home .secondary p:last-of-type {
     margin-bottom: 0;
   }
 
-  /* line 498, sass/_screen.scss */
+  /* line 499, sass/_screen.scss */
   #home .collection {
     display: inline-block;
     margin-bottom: 1em;
     padding-bottom: .5em;
     border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
   }
-  /* line 503, sass/_screen.scss */
+  /* line 504, sass/_screen.scss */
   #home .collection:last-of-type {
     border-bottom: none;
   }
-  /* line 507, sass/_screen.scss */
+  /* line 508, sass/_screen.scss */
   #home .collection img {
     float: left;
     padding: 0 1em 1em 0;
   }
-  /* line 511, sass/_screen.scss */
+  /* line 512, sass/_screen.scss */
   #home .collection .collection-description {
     width: 70%;
     float: left;
   }
 
-  /* line 516, sass/_screen.scss */
+  /* line 517, sass/_screen.scss */
   .gallery {
     width: 100%;
     float: left;
     margin-bottom: 15px;
   }
-  /* line 521, sass/_screen.scss */
+  /* line 522, sass/_screen.scss */
   .gallery img {
     width: 20%;
     float: left;
     background-color: #fff;
   }
-  /* line 526, sass/_screen.scss */
+  /* line 527, sass/_screen.scss */
   .gallery p {
     width: 80%;
     float: left;
     padding-left: 20px;
   }
 
-  /* line 533, sass/_screen.scss */
+  /* line 534, sass/_screen.scss */
   #about #content, #faqs #content, #staff #content, #partners #content {
     padding-right: 5em;
   }
 
-  /* line 538, sass/_screen.scss */
+  /* line 539, sass/_screen.scss */
   #faqs #primary ul {
     margin: 0 0 1em;
     padding-left: 1.5em;
   }
-  /* line 541, sass/_screen.scss */
+  /* line 542, sass/_screen.scss */
   #faqs #primary ul li {
     list-style-type: square;
     padding-bottom: 5px;
@@ -866,7 +866,7 @@
   /*--------------------------------------------------------------
   8.2 Carousel
   --------------------------------------------------------------*/
-  /* line 550, sass/_screen.scss */
+  /* line 551, sass/_screen.scss */
   .jcarousel img {
     margin: 0 auto;
   }
@@ -874,25 +874,25 @@
   /*--------------------------------------------------------------
   8.3 Collection Tree
   --------------------------------------------------------------*/
-  /* line 557, sass/_screen.scss */
+  /* line 558, sass/_screen.scss */
   .collection-tree #collection-tree {
     display: block;
     float: left;
     margin-bottom: 1em;
     width: 100%;
   }
-  /* line 562, sass/_screen.scss */
+  /* line 563, sass/_screen.scss */
   .collection-tree #collection-tree ul {
     margin: 0 0 1em 0;
     padding: 0;
   }
-  /* line 566, sass/_screen.scss */
+  /* line 567, sass/_screen.scss */
   .collection-tree #collection-tree ul li {
     list-style-type: none;
     font-weight: bold;
     letter-spacing: 1px;
   }
-  /* line 570, sass/_screen.scss */
+  /* line 571, sass/_screen.scss */
   .collection-tree #collection-tree ul li a {
     width: 23%;
     min-width: 160px;
@@ -907,7 +907,7 @@
     -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
-  /* line 585, sass/_screen.scss */
+  /* line 586, sass/_screen.scss */
   .collection-tree #collection-tree ul ul {
     display: none;
   }
@@ -915,63 +915,63 @@
   /*--------------------------------------------------------------
   8.4 Contribution
   --------------------------------------------------------------*/
-  /* line 594, sass/_screen.scss */
+  /* line 595, sass/_screen.scss */
   .contribution #primary {
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 598, sass/_screen.scss */
+  /* line 599, sass/_screen.scss */
   .contribution #recaptcha_widget_div {
     margin-bottom: 1em;
   }
 
-  /* line 602, sass/_screen.scss */
+  /* line 603, sass/_screen.scss */
   #contribution-type-form {
     margin-top: 2em;
   }
-  /* line 604, sass/_screen.scss */
+  /* line 605, sass/_screen.scss */
   #contribution-type-form .alpha {
     font-family: "PT Serif", serif;
     margin-bottom: .5em;
     font-weight: bold;
     font-size: 16.8px;
   }
-  /* line 610, sass/_screen.scss */
+  /* line 611, sass/_screen.scss */
   #contribution-type-form .explanation {
     margin-bottom: 1em;
   }
-  /* line 614, sass/_screen.scss */
+  /* line 615, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile fieldset {
     padding: 0;
   }
-  /* line 617, sass/_screen.scss */
+  /* line 618, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .field {
     width: 100%;
     float: left;
   }
-  /* line 621, sass/_screen.scss */
+  /* line 622, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .two.columns.alpha {
     width: 20%;
     float: left;
   }
-  /* line 625, sass/_screen.scss */
+  /* line 626, sass/_screen.scss */
   #contribution-type-form .contribution-userprofile .five.columns.omega {
     width: 75%;
     float: left;
     margin-left: 20px;
   }
 
-  /* line 632, sass/_screen.scss */
+  /* line 633, sass/_screen.scss */
   #contribution-confirm-submit {
     margin-top: 1em;
   }
-  /* line 634, sass/_screen.scss */
+  /* line 635, sass/_screen.scss */
   #contribution-confirm-submit p {
     margin: 1em 0;
     font-weight: bold;
   }
-  /* line 638, sass/_screen.scss */
+  /* line 639, sass/_screen.scss */
   #contribution-confirm-submit input[type=submit] {
     margin: 1em 0;
   }
@@ -979,24 +979,24 @@
   /*--------------------------------------------------------------
   8.5 User Profiles
   --------------------------------------------------------------*/
-  /* line 646, sass/_screen.scss */
+  /* line 647, sass/_screen.scss */
   .userprofiles.required-profile {
     margin-bottom: 1.5em;
   }
-  /* line 648, sass/_screen.scss */
+  /* line 649, sass/_screen.scss */
   .userprofiles.required-profile p {
     margin-bottom: 1em;
   }
-  /* line 651, sass/_screen.scss */
+  /* line 652, sass/_screen.scss */
   .userprofiles.required-profile ul {
     margin: 0;
     padding: 0;
   }
-  /* line 654, sass/_screen.scss */
+  /* line 655, sass/_screen.scss */
   .userprofiles.required-profile ul li {
     list-style-type: none;
   }
-  /* line 657, sass/_screen.scss */
+  /* line 658, sass/_screen.scss */
   .userprofiles.required-profile ul a {
     display: inline-block;
     background-color: rgba(142, 130, 100, 0.2);
@@ -1006,12 +1006,12 @@
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 665, sass/_screen.scss */
+  /* line 666, sass/_screen.scss */
   #primary {
     width: 100%;
     float: left;
   }
-  /* line 668, sass/_screen.scss */
+  /* line 669, sass/_screen.scss */
   #primary #edit-form {
     width: 100%;
     float: left;
